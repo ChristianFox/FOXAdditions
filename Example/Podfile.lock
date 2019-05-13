@@ -1,0 +1,16 @@
+PODS:
+  - FOXAdditions (0.1.0)
+
+DEPENDENCIES:
+  - FOXAdditions (from `../`)
+
+EXTERNAL SOURCES:
+  FOXAdditions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FOXAdditions: 68a8589b9955826910adc3790bcf8d40b5fbe609
+
+PODFILE CHECKSUM: 088ec390849187adeefb791e37523f519a4a1218
+
+COCOAPODS: 1.6.1

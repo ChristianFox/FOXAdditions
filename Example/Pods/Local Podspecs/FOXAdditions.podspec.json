@@ -1,0 +1,23 @@
+{
+  "name": "FOXAdditions",
+  "version": "0.1.0",
+  "summary": "FOXAdditions blah.",
+  "description": "FOXAdditions blah blah.",
+  "homepage": "https://kfxtech@bitbucket.org/kfx_pods/foxadditions.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ChristianFox": "christianfox890@icloud.com"
+  },
+  "source": {
+    "git": "https://kfxtech@bitbucket.org/kfx_pods/foxadditions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_version": "4.2",
+  "source_files": "FOXAdditions/Classes/**/*"
+}
