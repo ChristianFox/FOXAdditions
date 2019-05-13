@@ -10,12 +10,19 @@
 		021E4C86BDC89B9BC9C91C6343332537 /* Pods-FOXAdditions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FCB1458E147D61D04E9D621BC8EC88 /* Pods-FOXAdditions_Tests-dummy.m */; };
 		3BC7388F4B79EBD6C9FE693EF5AD2CD2 /* Pods-FOXAdditions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3962CFAB5FB05318E303B0D758556063 /* Pods-FOXAdditions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59D836BA57E1BB8429328A5AC73C9360 /* Pods-FOXAdditions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 868F9BA18A5CDA56627FD1A3806AB85E /* Pods-FOXAdditions_Example-dummy.m */; };
+		5B3D09512289A930007F2AD1 /* Array+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D09492289A930007F2AD1 /* Array+FOXAdditions.swift */; };
+		5B3D09522289A930007F2AD1 /* Collection+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D094A2289A930007F2AD1 /* Collection+FOXAdditions.swift */; };
+		5B3D09532289A930007F2AD1 /* Bundle+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D094B2289A930007F2AD1 /* Bundle+FOXAdditions.swift */; };
+		5B3D09542289A930007F2AD1 /* UIStackView+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D094C2289A930007F2AD1 /* UIStackView+FOXAdditions.swift */; };
+		5B3D09552289A930007F2AD1 /* NSObject+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D094D2289A930007F2AD1 /* NSObject+FOXAdditions.swift */; };
+		5B3D09562289A930007F2AD1 /* UITableViewCell+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D094E2289A930007F2AD1 /* UITableViewCell+FOXAdditions.swift */; };
+		5B3D09572289A930007F2AD1 /* UIView+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D094F2289A930007F2AD1 /* UIView+FOXAdditions.swift */; };
+		5B3D09582289A930007F2AD1 /* UIAlertController+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D09502289A930007F2AD1 /* UIAlertController+FOXAdditions.swift */; };
 		5D1EC55F8C27F18302096ABBD910CBE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		7C05117E3215617F86B7D25514B6FD23 /* FOXAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA2035DF6ABA39DDD15FE99003874F /* FOXAdditions-dummy.m */; };
 		87D004DD64F06CB863A37CFAC844FA3A /* FOXAdditions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C636398522BCF7EA9348BDCF5FE63AEC /* FOXAdditions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B0C8004E505B72A746B62B2E895C6CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		BA19A117018AF7DFD119B646339A7521 /* Pods-FOXAdditions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3869BC38948930B49992C80FC7A7F9 /* Pods-FOXAdditions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9249D045C37923DB68DC9310756B854 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9596C533BCE111BDFAAAE2139B3DC2F2 /* ReplaceMe.swift */; };
 		FD44E45A324025E09AC9EE9749B79E4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +52,14 @@
 		48BADD2AD9BD4EC4BB6AED1020915AC2 /* Pods-FOXAdditions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4920FFE82BAB7F953AAB79710F0A8CC0 /* FOXAdditions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FOXAdditions-Info.plist"; sourceTree = "<group>"; };
 		4B161C743D92321D24929EEF0CC5F3B1 /* Pods-FOXAdditions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FOXAdditions_Tests.modulemap"; sourceTree = "<group>"; };
+		5B3D09492289A930007F2AD1 /* Array+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+FOXAdditions.swift"; path = "FOXAdditions/Classes/Array+FOXAdditions.swift"; sourceTree = "<group>"; };
+		5B3D094A2289A930007F2AD1 /* Collection+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Collection+FOXAdditions.swift"; path = "FOXAdditions/Classes/Collection+FOXAdditions.swift"; sourceTree = "<group>"; };
+		5B3D094B2289A930007F2AD1 /* Bundle+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bundle+FOXAdditions.swift"; path = "FOXAdditions/Classes/Bundle+FOXAdditions.swift"; sourceTree = "<group>"; };
+		5B3D094C2289A930007F2AD1 /* UIStackView+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIStackView+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIStackView+FOXAdditions.swift"; sourceTree = "<group>"; };
+		5B3D094D2289A930007F2AD1 /* NSObject+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSObject+FOXAdditions.swift"; path = "FOXAdditions/Classes/NSObject+FOXAdditions.swift"; sourceTree = "<group>"; };
+		5B3D094E2289A930007F2AD1 /* UITableViewCell+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+FOXAdditions.swift"; path = "FOXAdditions/Classes/UITableViewCell+FOXAdditions.swift"; sourceTree = "<group>"; };
+		5B3D094F2289A930007F2AD1 /* UIView+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIView+FOXAdditions.swift"; sourceTree = "<group>"; };
+		5B3D09502289A930007F2AD1 /* UIAlertController+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIAlertController+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIAlertController+FOXAdditions.swift"; sourceTree = "<group>"; };
 		5D5B3F4AC7716233E9F5F51D8B90D528 /* Pods-FOXAdditions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		64FAA8D2903AC9898D17DF01CA7305B3 /* Pods-FOXAdditions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Example-Info.plist"; sourceTree = "<group>"; };
 		6591C4B640F4C225403E9C11D47C6990 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -55,7 +70,6 @@
 		88CC54058D46AE2810979EFF7FBFEE9F /* FOXAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FOXAdditions-prefix.pch"; sourceTree = "<group>"; };
 		924213D5E2495A6A3DBC20980E43B513 /* FOXAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FOXAdditions.xcconfig; sourceTree = "<group>"; };
 		94FCB1458E147D61D04E9D621BC8EC88 /* Pods-FOXAdditions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FOXAdditions_Tests-dummy.m"; sourceTree = "<group>"; };
-		9596C533BCE111BDFAAAE2139B3DC2F2 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FOXAdditions/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BD63005A5E17F0F2CB61764214367DE7 /* FOXAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FOXAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBF476159A31D8141669D5940F770DD /* Pods-FOXAdditions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FOXAdditions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -116,7 +130,14 @@
 		340B0FC6E15ABB5BC028EA901CE30D9A /* FOXAdditions */ = {
 			isa = PBXGroup;
 			children = (
-				9596C533BCE111BDFAAAE2139B3DC2F2 /* ReplaceMe.swift */,
+				5B3D09492289A930007F2AD1 /* Array+FOXAdditions.swift */,
+				5B3D094B2289A930007F2AD1 /* Bundle+FOXAdditions.swift */,
+				5B3D094A2289A930007F2AD1 /* Collection+FOXAdditions.swift */,
+				5B3D094D2289A930007F2AD1 /* NSObject+FOXAdditions.swift */,
+				5B3D09502289A930007F2AD1 /* UIAlertController+FOXAdditions.swift */,
+				5B3D094C2289A930007F2AD1 /* UIStackView+FOXAdditions.swift */,
+				5B3D094E2289A930007F2AD1 /* UITableViewCell+FOXAdditions.swift */,
+				5B3D094F2289A930007F2AD1 /* UIView+FOXAdditions.swift */,
 				8B80FBDD0C507538AF055A328C15DB8F /* Pod */,
 				1126B436D5938D255911C6F8D4EDB766 /* Support Files */,
 			);
@@ -315,6 +336,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					6EE054687496E4E2BAB3F8CA415243BA = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -381,7 +407,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C05117E3215617F86B7D25514B6FD23 /* FOXAdditions-dummy.m in Sources */,
-				E9249D045C37923DB68DC9310756B854 /* ReplaceMe.swift in Sources */,
+				5B3D09562289A930007F2AD1 /* UITableViewCell+FOXAdditions.swift in Sources */,
+				5B3D09552289A930007F2AD1 /* NSObject+FOXAdditions.swift in Sources */,
+				5B3D09582289A930007F2AD1 /* UIAlertController+FOXAdditions.swift in Sources */,
+				5B3D09532289A930007F2AD1 /* Bundle+FOXAdditions.swift in Sources */,
+				5B3D09572289A930007F2AD1 /* UIView+FOXAdditions.swift in Sources */,
+				5B3D09542289A930007F2AD1 /* UIStackView+FOXAdditions.swift in Sources */,
+				5B3D09512289A930007F2AD1 /* Array+FOXAdditions.swift in Sources */,
+				5B3D09522289A930007F2AD1 /* Collection+FOXAdditions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 924213D5E2495A6A3DBC20980E43B513 /* FOXAdditions.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -568,6 +602,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 924213D5E2495A6A3DBC20980E43B513 /* FOXAdditions.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -589,6 +624,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
