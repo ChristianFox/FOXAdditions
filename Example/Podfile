@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FOXAdditions_Example' do
+  pod 'FOXAdditions', :path => '../'
+
+  target 'FOXAdditions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
