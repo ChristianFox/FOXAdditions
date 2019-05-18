@@ -53,5 +53,20 @@ public extension Array {
         return elements
     }
 
+    /*
+     https://stackoverflow.com/a/39975354
+     */
+    mutating func remove(at indexes: [Int]) {
+        var lastIndex: Int? = nil
+        for index in indexes.sorted(by: >) {
+            guard lastIndex != index else {
+                continue
+            }
+            remove(at: index)
+            lastIndex = index
+        }
+    }
+
 
 }
+
