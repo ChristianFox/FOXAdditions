@@ -7,174 +7,175 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		021E4C86BDC89B9BC9C91C6343332537 /* Pods-FOXAdditions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94FCB1458E147D61D04E9D621BC8EC88 /* Pods-FOXAdditions_Tests-dummy.m */; };
-		3BC7388F4B79EBD6C9FE693EF5AD2CD2 /* Pods-FOXAdditions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3962CFAB5FB05318E303B0D758556063 /* Pods-FOXAdditions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		59D836BA57E1BB8429328A5AC73C9360 /* Pods-FOXAdditions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 868F9BA18A5CDA56627FD1A3806AB85E /* Pods-FOXAdditions_Example-dummy.m */; };
-		5B3D09512289A930007F2AD1 /* Array+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D09492289A930007F2AD1 /* Array+FOXAdditions.swift */; };
-		5B3D09522289A930007F2AD1 /* Collection+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D094A2289A930007F2AD1 /* Collection+FOXAdditions.swift */; };
-		5B3D09532289A930007F2AD1 /* Bundle+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D094B2289A930007F2AD1 /* Bundle+FOXAdditions.swift */; };
-		5B3D09542289A930007F2AD1 /* UIStackView+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D094C2289A930007F2AD1 /* UIStackView+FOXAdditions.swift */; };
-		5B3D09552289A930007F2AD1 /* NSObject+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D094D2289A930007F2AD1 /* NSObject+FOXAdditions.swift */; };
-		5B3D09562289A930007F2AD1 /* UITableViewCell+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D094E2289A930007F2AD1 /* UITableViewCell+FOXAdditions.swift */; };
-		5B3D09572289A930007F2AD1 /* UIView+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D094F2289A930007F2AD1 /* UIView+FOXAdditions.swift */; };
-		5B3D09582289A930007F2AD1 /* UIAlertController+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D09502289A930007F2AD1 /* UIAlertController+FOXAdditions.swift */; };
-		5D1EC55F8C27F18302096ABBD910CBE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		7C05117E3215617F86B7D25514B6FD23 /* FOXAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA2035DF6ABA39DDD15FE99003874F /* FOXAdditions-dummy.m */; };
-		87D004DD64F06CB863A37CFAC844FA3A /* FOXAdditions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C636398522BCF7EA9348BDCF5FE63AEC /* FOXAdditions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B0C8004E505B72A746B62B2E895C6CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		BA19A117018AF7DFD119B646339A7521 /* Pods-FOXAdditions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE3869BC38948930B49992C80FC7A7F9 /* Pods-FOXAdditions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD44E45A324025E09AC9EE9749B79E4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		0C0A79EE8CB3C21EB811B7311AF9A5C0 /* Collection+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95F100C5A4EFC903CD25A6E289CCB79 /* Collection+FOXAdditions.swift */; };
+		1CAA7C9C7C4406A60C3BE4518BDAE8D2 /* UIView+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A7ADD07D95D113CCF2B4576BEE412C /* UIView+FOXAdditions.swift */; };
+		3EA17322BF97BFDEAC1FC147390521B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		46074B1E14C3CDC91084857C51D7DF30 /* FOXAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD35EAD373FD43D7AD6E28E41CD9C27F /* FOXAdditions-dummy.m */; };
+		51CD9F59325A02891D99DF05DC06F86F /* UITableViewCell+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0FDD34C55E735E3EF307CC5F4EEB3C /* UITableViewCell+FOXAdditions.swift */; };
+		58A4D127B55B59F42E7D856F8CE29253 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		637461C357A9AFCADA7DB5D863D46227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		84A02327AE7782228A48944F352654F4 /* Bundle+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706F2AC10A8B8F5C7E225BDBD7472E3 /* Bundle+FOXAdditions.swift */; };
+		84A700A55584343C88CCB8C75F7D206B /* NSObject+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0CAFFA43345DCDE14A43CFF263F200 /* NSObject+FOXAdditions.swift */; };
+		92430E1CF626A886D97CB79731C22720 /* Pods-FOXAdditions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE44320465D6D6C787CD506B40E81FDA /* Pods-FOXAdditions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAE986CAE23C76A2302AB00E4A5DD20A /* UIStackView+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7A8B71C33ECE9536AEECF77365E0A6 /* UIStackView+FOXAdditions.swift */; };
+		BFB786A70C5041AF78B1414E83AF699E /* Pods-FOXAdditions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E01C6311E2F67768A7C26967EC98932D /* Pods-FOXAdditions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC203B922328928827421DB8A112CCD5 /* Pods-FOXAdditions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0523EACFB13CC9C60E165E9504438168 /* Pods-FOXAdditions_Example-dummy.m */; };
+		DB4E9B2757AFD0166A8E9037CA85CEF5 /* Pods-FOXAdditions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC55BFBA083E22E248AE1E845A275D9 /* Pods-FOXAdditions_Tests-dummy.m */; };
+		DC0AFAF9C9EF20E982D7B7F668B12919 /* Array+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEB9CDB53AE50167B9D31CE03E5789B /* Array+FOXAdditions.swift */; };
+		F1C812897365FF615726A3AE836D6BD6 /* FOXAdditions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC70C5514477A42A18582169F962507F /* FOXAdditions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB163F50CA1336B86FD0E20CF4A14B5B /* UIAlertController+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F868A58EB3A01F55C4D6C7B50BEA81C /* UIAlertController+FOXAdditions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E77D03FB5F90F9824EC2D132D7E4537 /* PBXContainerItemProxy */ = {
+		3966C2768BEB3E708ED107637715846F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6EE054687496E4E2BAB3F8CA415243BA;
+			remoteGlobalIDString = 1248F1D8477A74326FF84353D6D046D3;
 			remoteInfo = FOXAdditions;
 		};
-		867AF7759A6A814ABD05DCCB61E62117 /* PBXContainerItemProxy */ = {
+		D9AD4BC363E46CE1A67140C21FADA95D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 649C5865F9D14CAAF19AA046839CAD81;
+			remoteGlobalIDString = C51679B6997E88420A3C942BD5379FE5;
 			remoteInfo = "Pods-FOXAdditions_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FAA2035DF6ABA39DDD15FE99003874F /* FOXAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FOXAdditions-dummy.m"; sourceTree = "<group>"; };
-		1E10D4FF2A660F92BD4611B815BE99EE /* Pods-FOXAdditions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		24FE387C566F8E75819136AF53EB9A3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2743FD7553B1AEA7F28D0BF26C88CDBA /* Pods-FOXAdditions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3962CFAB5FB05318E303B0D758556063 /* Pods-FOXAdditions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FOXAdditions_Tests-umbrella.h"; sourceTree = "<group>"; };
-		48BADD2AD9BD4EC4BB6AED1020915AC2 /* Pods-FOXAdditions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4920FFE82BAB7F953AAB79710F0A8CC0 /* FOXAdditions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FOXAdditions-Info.plist"; sourceTree = "<group>"; };
-		4B161C743D92321D24929EEF0CC5F3B1 /* Pods-FOXAdditions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FOXAdditions_Tests.modulemap"; sourceTree = "<group>"; };
-		5B3D09492289A930007F2AD1 /* Array+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+FOXAdditions.swift"; path = "FOXAdditions/Classes/Array+FOXAdditions.swift"; sourceTree = "<group>"; };
-		5B3D094A2289A930007F2AD1 /* Collection+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Collection+FOXAdditions.swift"; path = "FOXAdditions/Classes/Collection+FOXAdditions.swift"; sourceTree = "<group>"; };
-		5B3D094B2289A930007F2AD1 /* Bundle+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bundle+FOXAdditions.swift"; path = "FOXAdditions/Classes/Bundle+FOXAdditions.swift"; sourceTree = "<group>"; };
-		5B3D094C2289A930007F2AD1 /* UIStackView+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIStackView+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIStackView+FOXAdditions.swift"; sourceTree = "<group>"; };
-		5B3D094D2289A930007F2AD1 /* NSObject+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSObject+FOXAdditions.swift"; path = "FOXAdditions/Classes/NSObject+FOXAdditions.swift"; sourceTree = "<group>"; };
-		5B3D094E2289A930007F2AD1 /* UITableViewCell+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+FOXAdditions.swift"; path = "FOXAdditions/Classes/UITableViewCell+FOXAdditions.swift"; sourceTree = "<group>"; };
-		5B3D094F2289A930007F2AD1 /* UIView+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIView+FOXAdditions.swift"; sourceTree = "<group>"; };
-		5B3D09502289A930007F2AD1 /* UIAlertController+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIAlertController+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIAlertController+FOXAdditions.swift"; sourceTree = "<group>"; };
-		5D5B3F4AC7716233E9F5F51D8B90D528 /* Pods-FOXAdditions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Example.release.xcconfig"; sourceTree = "<group>"; };
-		64FAA8D2903AC9898D17DF01CA7305B3 /* Pods-FOXAdditions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Example-Info.plist"; sourceTree = "<group>"; };
-		6591C4B640F4C225403E9C11D47C6990 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		6A6CE4B43895061923D356B4D4CC24F2 /* Pods-FOXAdditions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Tests-Info.plist"; sourceTree = "<group>"; };
-		766A97FC5D7266E70CF13F759F5E5A8E /* Pods-FOXAdditions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FOXAdditions_Example-frameworks.sh"; sourceTree = "<group>"; };
-		79F7D68F51E7A4C992A21BC1AA099F2D /* FOXAdditions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FOXAdditions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		868F9BA18A5CDA56627FD1A3806AB85E /* Pods-FOXAdditions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FOXAdditions_Example-dummy.m"; sourceTree = "<group>"; };
-		88CC54058D46AE2810979EFF7FBFEE9F /* FOXAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FOXAdditions-prefix.pch"; sourceTree = "<group>"; };
-		924213D5E2495A6A3DBC20980E43B513 /* FOXAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FOXAdditions.xcconfig; sourceTree = "<group>"; };
-		94FCB1458E147D61D04E9D621BC8EC88 /* Pods-FOXAdditions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FOXAdditions_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BD63005A5E17F0F2CB61764214367DE7 /* FOXAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FOXAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFBF476159A31D8141669D5940F770DD /* Pods-FOXAdditions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FOXAdditions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C636398522BCF7EA9348BDCF5FE63AEC /* FOXAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FOXAdditions-umbrella.h"; sourceTree = "<group>"; };
-		CB4038CBB3910803AA540624E3BD0F44 /* Pods_FOXAdditions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FOXAdditions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD3C7C0E31AA3A4CC25191D7F075C456 /* Pods-FOXAdditions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D245CB7D97C7932B8F07A7DA3A799109 /* Pods-FOXAdditions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EE3869BC38948930B49992C80FC7A7F9 /* Pods-FOXAdditions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FOXAdditions_Example-umbrella.h"; sourceTree = "<group>"; };
-		EF8CD8BD513825578F2078919E06905C /* Pods_FOXAdditions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FOXAdditions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0FC6241B388EA86C72F53AE670B7E21 /* FOXAdditions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FOXAdditions.modulemap; sourceTree = "<group>"; };
-		F725F638914500957D492EAFB6C6B04C /* Pods-FOXAdditions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FOXAdditions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F7DB912D83FE6489DBF3EE7A5C50F32F /* Pods-FOXAdditions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FOXAdditions_Example.modulemap"; sourceTree = "<group>"; };
+		00E970F8763298D01388E2E13D367354 /* Pods-FOXAdditions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0523EACFB13CC9C60E165E9504438168 /* Pods-FOXAdditions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FOXAdditions_Example-dummy.m"; sourceTree = "<group>"; };
+		10E0F78764BEF07F36A305C27FFFF68B /* Pods-FOXAdditions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1247D04ADA3C19F4EEB63121150F4ED3 /* Pods-FOXAdditions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1BB944E8AEF4B3A01140B739166DA238 /* FOXAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FOXAdditions.xcconfig; sourceTree = "<group>"; };
+		1CD679F0BB649985341719774DD9833C /* Pods_FOXAdditions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FOXAdditions_Tests.framework; path = "Pods-FOXAdditions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD47E52C7D7A065E3FAE7DF61772D9E /* Pods-FOXAdditions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Example-Info.plist"; sourceTree = "<group>"; };
+		2410D0544D633282E75BB51736FBEE74 /* Pods-FOXAdditions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FOXAdditions_Example.modulemap"; sourceTree = "<group>"; };
+		2568F38731D829F004DACDF9287866DF /* Pods-FOXAdditions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FOXAdditions_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		420B9A1245226B2D92E4B04381131A00 /* Pods_FOXAdditions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FOXAdditions_Example.framework; path = "Pods-FOXAdditions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F868A58EB3A01F55C4D6C7B50BEA81C /* UIAlertController+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIAlertController+FOXAdditions.swift"; sourceTree = "<group>"; };
+		56DF9271EBFF33930608B3596867F667 /* Pods-FOXAdditions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FOXAdditions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		572EB95FDBDA218B5137B610A0F16EAA /* Pods-FOXAdditions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Tests-Info.plist"; sourceTree = "<group>"; };
+		5A0FDD34C55E735E3EF307CC5F4EEB3C /* UITableViewCell+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+FOXAdditions.swift"; path = "FOXAdditions/Classes/UITableViewCell+FOXAdditions.swift"; sourceTree = "<group>"; };
+		67A58DB9EDFA3D3236FB7F9959C83655 /* Pods-FOXAdditions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C0CAFFA43345DCDE14A43CFF263F200 /* NSObject+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+FOXAdditions.swift"; path = "FOXAdditions/Classes/NSObject+FOXAdditions.swift"; sourceTree = "<group>"; };
+		72D6DC8414B82BE71547236729B04882 /* FOXAdditions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FOXAdditions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		891A84C31FEED50AA2139F85EB3DDC25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8DE542989E3283B212E985291640CD73 /* FOXAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FOXAdditions.framework; path = FOXAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A17B0D889E8990BBBAF5EC86423AC560 /* Pods-FOXAdditions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9397624A21A7429EE81DEFF2148D15C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AA6F31398239E904CD2CA1E16A34E655 /* FOXAdditions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FOXAdditions.modulemap; sourceTree = "<group>"; };
+		ABEB9CDB53AE50167B9D31CE03E5789B /* Array+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+FOXAdditions.swift"; path = "FOXAdditions/Classes/Array+FOXAdditions.swift"; sourceTree = "<group>"; };
+		AE44320465D6D6C787CD506B40E81FDA /* Pods-FOXAdditions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FOXAdditions_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA727F92EB8C09CC353A297A9A78658F /* FOXAdditions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FOXAdditions-Info.plist"; sourceTree = "<group>"; };
+		C95F100C5A4EFC903CD25A6E289CCB79 /* Collection+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+FOXAdditions.swift"; path = "FOXAdditions/Classes/Collection+FOXAdditions.swift"; sourceTree = "<group>"; };
+		CB7A8B71C33ECE9536AEECF77365E0A6 /* UIStackView+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIStackView+FOXAdditions.swift"; sourceTree = "<group>"; };
+		CC70C5514477A42A18582169F962507F /* FOXAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FOXAdditions-umbrella.h"; sourceTree = "<group>"; };
+		D1A8DFF1A95C8315448F537E36E7B46A /* Pods-FOXAdditions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E01C6311E2F67768A7C26967EC98932D /* Pods-FOXAdditions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FOXAdditions_Example-umbrella.h"; sourceTree = "<group>"; };
+		E706F2AC10A8B8F5C7E225BDBD7472E3 /* Bundle+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+FOXAdditions.swift"; path = "FOXAdditions/Classes/Bundle+FOXAdditions.swift"; sourceTree = "<group>"; };
+		F1D8808E290B06E7CF045DFAC99A2BC1 /* Pods-FOXAdditions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FOXAdditions_Tests.modulemap"; sourceTree = "<group>"; };
+		F522B90F588E2F08585B12D93121F8B3 /* FOXAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FOXAdditions-prefix.pch"; sourceTree = "<group>"; };
+		F6A7ADD07D95D113CCF2B4576BEE412C /* UIView+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIView+FOXAdditions.swift"; sourceTree = "<group>"; };
+		F764D680A936D603ABA829818BC17099 /* Pods-FOXAdditions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FOXAdditions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD35EAD373FD43D7AD6E28E41CD9C27F /* FOXAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FOXAdditions-dummy.m"; sourceTree = "<group>"; };
+		FDC55BFBA083E22E248AE1E845A275D9 /* Pods-FOXAdditions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FOXAdditions_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		170DE9D972F4B5DDA21565CA9414CAC3 /* Frameworks */ = {
+		3C1372CFC980A8D3E1BA4A3BF6A54F11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD44E45A324025E09AC9EE9749B79E4D /* Foundation.framework in Frameworks */,
+				3EA17322BF97BFDEAC1FC147390521B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		739DB9611C71778B12C427982118DD1A /* Frameworks */ = {
+		81CBAF33671AD525CC51978D08CAD0BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0C8004E505B72A746B62B2E895C6CC /* Foundation.framework in Frameworks */,
+				58A4D127B55B59F42E7D856F8CE29253 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92729A883C3525DB6A50A79D42A392AF /* Frameworks */ = {
+		A21A4E404EAEBAC3F48333A7D082133B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D1EC55F8C27F18302096ABBD910CBE2 /* Foundation.framework in Frameworks */,
+				637461C357A9AFCADA7DB5D863D46227 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1126B436D5938D255911C6F8D4EDB766 /* Support Files */ = {
+		0C88A996C20023BD338347B0CED3A407 /* Pods-FOXAdditions_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F0FC6241B388EA86C72F53AE670B7E21 /* FOXAdditions.modulemap */,
-				924213D5E2495A6A3DBC20980E43B513 /* FOXAdditions.xcconfig */,
-				0FAA2035DF6ABA39DDD15FE99003874F /* FOXAdditions-dummy.m */,
-				4920FFE82BAB7F953AAB79710F0A8CC0 /* FOXAdditions-Info.plist */,
-				88CC54058D46AE2810979EFF7FBFEE9F /* FOXAdditions-prefix.pch */,
-				C636398522BCF7EA9348BDCF5FE63AEC /* FOXAdditions-umbrella.h */,
+				F1D8808E290B06E7CF045DFAC99A2BC1 /* Pods-FOXAdditions_Tests.modulemap */,
+				F764D680A936D603ABA829818BC17099 /* Pods-FOXAdditions_Tests-acknowledgements.markdown */,
+				67A58DB9EDFA3D3236FB7F9959C83655 /* Pods-FOXAdditions_Tests-acknowledgements.plist */,
+				FDC55BFBA083E22E248AE1E845A275D9 /* Pods-FOXAdditions_Tests-dummy.m */,
+				572EB95FDBDA218B5137B610A0F16EAA /* Pods-FOXAdditions_Tests-Info.plist */,
+				AE44320465D6D6C787CD506B40E81FDA /* Pods-FOXAdditions_Tests-umbrella.h */,
+				A17B0D889E8990BBBAF5EC86423AC560 /* Pods-FOXAdditions_Tests.debug.xcconfig */,
+				1247D04ADA3C19F4EEB63121150F4ED3 /* Pods-FOXAdditions_Tests.release.xcconfig */,
+			);
+			name = "Pods-FOXAdditions_Tests";
+			path = "Target Support Files/Pods-FOXAdditions_Tests";
+			sourceTree = "<group>";
+		};
+		196C1871866FAE973C046E4A04B75DF4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA6F31398239E904CD2CA1E16A34E655 /* FOXAdditions.modulemap */,
+				1BB944E8AEF4B3A01140B739166DA238 /* FOXAdditions.xcconfig */,
+				FD35EAD373FD43D7AD6E28E41CD9C27F /* FOXAdditions-dummy.m */,
+				BA727F92EB8C09CC353A297A9A78658F /* FOXAdditions-Info.plist */,
+				F522B90F588E2F08585B12D93121F8B3 /* FOXAdditions-prefix.pch */,
+				CC70C5514477A42A18582169F962507F /* FOXAdditions-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/FOXAdditions";
 			sourceTree = "<group>";
 		};
-		340B0FC6E15ABB5BC028EA901CE30D9A /* FOXAdditions */ = {
+		2C7EF75983CE0D399242BB6E1CC81698 /* FOXAdditions */ = {
 			isa = PBXGroup;
 			children = (
-				5B3D09492289A930007F2AD1 /* Array+FOXAdditions.swift */,
-				5B3D094B2289A930007F2AD1 /* Bundle+FOXAdditions.swift */,
-				5B3D094A2289A930007F2AD1 /* Collection+FOXAdditions.swift */,
-				5B3D094D2289A930007F2AD1 /* NSObject+FOXAdditions.swift */,
-				5B3D09502289A930007F2AD1 /* UIAlertController+FOXAdditions.swift */,
-				5B3D094C2289A930007F2AD1 /* UIStackView+FOXAdditions.swift */,
-				5B3D094E2289A930007F2AD1 /* UITableViewCell+FOXAdditions.swift */,
-				5B3D094F2289A930007F2AD1 /* UIView+FOXAdditions.swift */,
-				8B80FBDD0C507538AF055A328C15DB8F /* Pod */,
-				1126B436D5938D255911C6F8D4EDB766 /* Support Files */,
+				ABEB9CDB53AE50167B9D31CE03E5789B /* Array+FOXAdditions.swift */,
+				E706F2AC10A8B8F5C7E225BDBD7472E3 /* Bundle+FOXAdditions.swift */,
+				C95F100C5A4EFC903CD25A6E289CCB79 /* Collection+FOXAdditions.swift */,
+				6C0CAFFA43345DCDE14A43CFF263F200 /* NSObject+FOXAdditions.swift */,
+				4F868A58EB3A01F55C4D6C7B50BEA81C /* UIAlertController+FOXAdditions.swift */,
+				CB7A8B71C33ECE9536AEECF77365E0A6 /* UIStackView+FOXAdditions.swift */,
+				5A0FDD34C55E735E3EF307CC5F4EEB3C /* UITableViewCell+FOXAdditions.swift */,
+				F6A7ADD07D95D113CCF2B4576BEE412C /* UIView+FOXAdditions.swift */,
+				625A379D35CF78A744064D58B90C370A /* Pod */,
+				196C1871866FAE973C046E4A04B75DF4 /* Support Files */,
 			);
 			name = FOXAdditions;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		37D0EB9C438159EBB140EF70A959AE22 /* Pods-FOXAdditions_Example */ = {
+		625A379D35CF78A744064D58B90C370A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F7DB912D83FE6489DBF3EE7A5C50F32F /* Pods-FOXAdditions_Example.modulemap */,
-				F725F638914500957D492EAFB6C6B04C /* Pods-FOXAdditions_Example-acknowledgements.markdown */,
-				CD3C7C0E31AA3A4CC25191D7F075C456 /* Pods-FOXAdditions_Example-acknowledgements.plist */,
-				868F9BA18A5CDA56627FD1A3806AB85E /* Pods-FOXAdditions_Example-dummy.m */,
-				766A97FC5D7266E70CF13F759F5E5A8E /* Pods-FOXAdditions_Example-frameworks.sh */,
-				64FAA8D2903AC9898D17DF01CA7305B3 /* Pods-FOXAdditions_Example-Info.plist */,
-				EE3869BC38948930B49992C80FC7A7F9 /* Pods-FOXAdditions_Example-umbrella.h */,
-				D245CB7D97C7932B8F07A7DA3A799109 /* Pods-FOXAdditions_Example.debug.xcconfig */,
-				5D5B3F4AC7716233E9F5F51D8B90D528 /* Pods-FOXAdditions_Example.release.xcconfig */,
+				72D6DC8414B82BE71547236729B04882 /* FOXAdditions.podspec */,
+				891A84C31FEED50AA2139F85EB3DDC25 /* LICENSE */,
+				A9397624A21A7429EE81DEFF2148D15C /* README.md */,
 			);
-			name = "Pods-FOXAdditions_Example";
-			path = "Target Support Files/Pods-FOXAdditions_Example";
-			sourceTree = "<group>";
-		};
-		39E969D342B8959C7765B52F0DCF1506 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				340B0FC6E15ABB5BC028EA901CE30D9A /* FOXAdditions */,
-			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		6857051FF6F0B1B3FE23A32D694B47C0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				37D0EB9C438159EBB140EF70A959AE22 /* Pods-FOXAdditions_Example */,
-				8C5BCB821B04F2B12432DADCFEEA5BCF /* Pods-FOXAdditions_Tests */,
+				EBC2E0BC0C079471EAC3CE497D0C6588 /* Pods-FOXAdditions_Example */,
+				0C88A996C20023BD338347B0CED3A407 /* Pods-FOXAdditions_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -182,52 +183,34 @@
 		86833FACC73F5B0DB1A2E03077179266 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BD63005A5E17F0F2CB61764214367DE7 /* FOXAdditions.framework */,
-				EF8CD8BD513825578F2078919E06905C /* Pods_FOXAdditions_Example.framework */,
-				CB4038CBB3910803AA540624E3BD0F44 /* Pods_FOXAdditions_Tests.framework */,
+				8DE542989E3283B212E985291640CD73 /* FOXAdditions.framework */,
+				420B9A1245226B2D92E4B04381131A00 /* Pods_FOXAdditions_Example.framework */,
+				1CD679F0BB649985341719774DD9833C /* Pods_FOXAdditions_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B80FBDD0C507538AF055A328C15DB8F /* Pod */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				79F7D68F51E7A4C992A21BC1AA099F2D /* FOXAdditions.podspec */,
-				6591C4B640F4C225403E9C11D47C6990 /* LICENSE */,
-				24FE387C566F8E75819136AF53EB9A3F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		8C5BCB821B04F2B12432DADCFEEA5BCF /* Pods-FOXAdditions_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				4B161C743D92321D24929EEF0CC5F3B1 /* Pods-FOXAdditions_Tests.modulemap */,
-				BFBF476159A31D8141669D5940F770DD /* Pods-FOXAdditions_Tests-acknowledgements.markdown */,
-				2743FD7553B1AEA7F28D0BF26C88CDBA /* Pods-FOXAdditions_Tests-acknowledgements.plist */,
-				94FCB1458E147D61D04E9D621BC8EC88 /* Pods-FOXAdditions_Tests-dummy.m */,
-				6A6CE4B43895061923D356B4D4CC24F2 /* Pods-FOXAdditions_Tests-Info.plist */,
-				3962CFAB5FB05318E303B0D758556063 /* Pods-FOXAdditions_Tests-umbrella.h */,
-				48BADD2AD9BD4EC4BB6AED1020915AC2 /* Pods-FOXAdditions_Tests.debug.xcconfig */,
-				1E10D4FF2A660F92BD4611B815BE99EE /* Pods-FOXAdditions_Tests.release.xcconfig */,
-			);
-			name = "Pods-FOXAdditions_Tests";
-			path = "Target Support Files/Pods-FOXAdditions_Tests";
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4E701C603DAECDDC4ED3985138FADA0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C7EF75983CE0D399242BB6E1CC81698 /* FOXAdditions */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				39E969D342B8959C7765B52F0DCF1506 /* Development Pods */,
+				C4E701C603DAECDDC4ED3985138FADA0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				86833FACC73F5B0DB1A2E03077179266 /* Products */,
 				6857051FF6F0B1B3FE23A32D694B47C0 /* Targets Support Files */,
@@ -237,68 +220,66 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBC2E0BC0C079471EAC3CE497D0C6588 /* Pods-FOXAdditions_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2410D0544D633282E75BB51736FBEE74 /* Pods-FOXAdditions_Example.modulemap */,
+				56DF9271EBFF33930608B3596867F667 /* Pods-FOXAdditions_Example-acknowledgements.markdown */,
+				00E970F8763298D01388E2E13D367354 /* Pods-FOXAdditions_Example-acknowledgements.plist */,
+				0523EACFB13CC9C60E165E9504438168 /* Pods-FOXAdditions_Example-dummy.m */,
+				2568F38731D829F004DACDF9287866DF /* Pods-FOXAdditions_Example-frameworks.sh */,
+				1FD47E52C7D7A065E3FAE7DF61772D9E /* Pods-FOXAdditions_Example-Info.plist */,
+				E01C6311E2F67768A7C26967EC98932D /* Pods-FOXAdditions_Example-umbrella.h */,
+				D1A8DFF1A95C8315448F537E36E7B46A /* Pods-FOXAdditions_Example.debug.xcconfig */,
+				10E0F78764BEF07F36A305C27FFFF68B /* Pods-FOXAdditions_Example.release.xcconfig */,
+			);
+			name = "Pods-FOXAdditions_Example";
+			path = "Target Support Files/Pods-FOXAdditions_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		516E387D65F1C0D2A1488D236D530595 /* Headers */ = {
+		07E4EE57F0EE91A98EF5B61D1CFA2415 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BC7388F4B79EBD6C9FE693EF5AD2CD2 /* Pods-FOXAdditions_Tests-umbrella.h in Headers */,
+				BFB786A70C5041AF78B1414E83AF699E /* Pods-FOXAdditions_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8639887BF84571FDFE6EB46C2C31003B /* Headers */ = {
+		B35504FD9C625FD34DD8F7CC4E37F443 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87D004DD64F06CB863A37CFAC844FA3A /* FOXAdditions-umbrella.h in Headers */,
+				92430E1CF626A886D97CB79731C22720 /* Pods-FOXAdditions_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89F306DF98112FB9F09E1C2E68F7EC1B /* Headers */ = {
+		BC627EEBD6B280AF5944BF95CC8D2942 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA19A117018AF7DFD119B646339A7521 /* Pods-FOXAdditions_Example-umbrella.h in Headers */,
+				F1C812897365FF615726A3AE836D6BD6 /* FOXAdditions-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		649C5865F9D14CAAF19AA046839CAD81 /* Pods-FOXAdditions_Example */ = {
+		1248F1D8477A74326FF84353D6D046D3 /* FOXAdditions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF72AF285C6CF31E2020AEA8C9012193 /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Example" */;
+			buildConfigurationList = 32F1B36CFC2F41A631DC1DE5C9ADAA34 /* Build configuration list for PBXNativeTarget "FOXAdditions" */;
 			buildPhases = (
-				89F306DF98112FB9F09E1C2E68F7EC1B /* Headers */,
-				4EBF5337AFFFBA6C43749D1FD4F2A3C2 /* Sources */,
-				739DB9611C71778B12C427982118DD1A /* Frameworks */,
-				590EF3AB75D022EE507823D160D54301 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				01998572F2E18A682B2FFEAD6D23F3C6 /* PBXTargetDependency */,
-			);
-			name = "Pods-FOXAdditions_Example";
-			productName = "Pods-FOXAdditions_Example";
-			productReference = EF8CD8BD513825578F2078919E06905C /* Pods_FOXAdditions_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6EE054687496E4E2BAB3F8CA415243BA /* FOXAdditions */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9C1D5A62095A7288B61E270AE7EBF8D1 /* Build configuration list for PBXNativeTarget "FOXAdditions" */;
-			buildPhases = (
-				8639887BF84571FDFE6EB46C2C31003B /* Headers */,
-				91A823BB71EDC8873661E98B2CAFF4B3 /* Sources */,
-				170DE9D972F4B5DDA21565CA9414CAC3 /* Frameworks */,
-				1CF8C151B0D6C6BA39E207791DEB1C13 /* Resources */,
+				BC627EEBD6B280AF5944BF95CC8D2942 /* Headers */,
+				D835F0A058700C195EF70F0230489C27 /* Sources */,
+				81CBAF33671AD525CC51978D08CAD0BD /* Frameworks */,
+				E5D7E17D38C3A0968F865EC2C2424BF6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -306,26 +287,45 @@
 			);
 			name = FOXAdditions;
 			productName = FOXAdditions;
-			productReference = BD63005A5E17F0F2CB61764214367DE7 /* FOXAdditions.framework */;
+			productReference = 8DE542989E3283B212E985291640CD73 /* FOXAdditions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F9539E899EDF6C682BDB1AFB58E72E89 /* Pods-FOXAdditions_Tests */ = {
+		C51679B6997E88420A3C942BD5379FE5 /* Pods-FOXAdditions_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63AE25D18DF14AB1746F442F983D6DAC /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Tests" */;
+			buildConfigurationList = B5BAB762780C1CDF084B93544D9F0298 /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Example" */;
 			buildPhases = (
-				516E387D65F1C0D2A1488D236D530595 /* Headers */,
-				811C6DC4B15B2132FA1C3CC68905E656 /* Sources */,
-				92729A883C3525DB6A50A79D42A392AF /* Frameworks */,
-				AD182D4ED0E0B9133760B85AD165CD4D /* Resources */,
+				07E4EE57F0EE91A98EF5B61D1CFA2415 /* Headers */,
+				C5CAA81EFD6600FE8306A6C89B5677A5 /* Sources */,
+				A21A4E404EAEBAC3F48333A7D082133B /* Frameworks */,
+				D516E07B7639BC670EFF804B790EC215 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F436F68756C7EED441A12C2A10EABF73 /* PBXTargetDependency */,
+				77665354A41919D94CFCC0587C6B4121 /* PBXTargetDependency */,
+			);
+			name = "Pods-FOXAdditions_Example";
+			productName = "Pods-FOXAdditions_Example";
+			productReference = 420B9A1245226B2D92E4B04381131A00 /* Pods_FOXAdditions_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6A19982623E7094FF33081CDE32B5CF /* Pods-FOXAdditions_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247A1922FEAD57C96D99A80F924ADDF4 /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Tests" */;
+			buildPhases = (
+				B35504FD9C625FD34DD8F7CC4E37F443 /* Headers */,
+				10001ECDB7A092F42F6DB1BFD4D3687A /* Sources */,
+				3C1372CFC980A8D3E1BA4A3BF6A54F11 /* Frameworks */,
+				719380646F705F6E29EE4E599E313EF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA326EA8655ED46C6E7D366D19D0BA7B /* PBXTargetDependency */,
 			);
 			name = "Pods-FOXAdditions_Tests";
 			productName = "Pods-FOXAdditions_Tests";
-			productReference = CB4038CBB3910803AA540624E3BD0F44 /* Pods_FOXAdditions_Tests.framework */;
+			productReference = 1CD679F0BB649985341719774DD9833C /* Pods_FOXAdditions_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -334,17 +334,12 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1010;
-				TargetAttributes = {
-					6EE054687496E4E2BAB3F8CA415243BA = {
-						LastSwiftMigration = 1010;
-					};
-				};
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -354,29 +349,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6EE054687496E4E2BAB3F8CA415243BA /* FOXAdditions */,
-				649C5865F9D14CAAF19AA046839CAD81 /* Pods-FOXAdditions_Example */,
-				F9539E899EDF6C682BDB1AFB58E72E89 /* Pods-FOXAdditions_Tests */,
+				1248F1D8477A74326FF84353D6D046D3 /* FOXAdditions */,
+				C51679B6997E88420A3C942BD5379FE5 /* Pods-FOXAdditions_Example */,
+				D6A19982623E7094FF33081CDE32B5CF /* Pods-FOXAdditions_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1CF8C151B0D6C6BA39E207791DEB1C13 /* Resources */ = {
+		719380646F705F6E29EE4E599E313EF7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		590EF3AB75D022EE507823D160D54301 /* Resources */ = {
+		D516E07B7639BC670EFF804B790EC215 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD182D4ED0E0B9133760B85AD165CD4D /* Resources */ = {
+		E5D7E17D38C3A0968F865EC2C2424BF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,61 +381,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4EBF5337AFFFBA6C43749D1FD4F2A3C2 /* Sources */ = {
+		10001ECDB7A092F42F6DB1BFD4D3687A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59D836BA57E1BB8429328A5AC73C9360 /* Pods-FOXAdditions_Example-dummy.m in Sources */,
+				DB4E9B2757AFD0166A8E9037CA85CEF5 /* Pods-FOXAdditions_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		811C6DC4B15B2132FA1C3CC68905E656 /* Sources */ = {
+		C5CAA81EFD6600FE8306A6C89B5677A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				021E4C86BDC89B9BC9C91C6343332537 /* Pods-FOXAdditions_Tests-dummy.m in Sources */,
+				CC203B922328928827421DB8A112CCD5 /* Pods-FOXAdditions_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91A823BB71EDC8873661E98B2CAFF4B3 /* Sources */ = {
+		D835F0A058700C195EF70F0230489C27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C05117E3215617F86B7D25514B6FD23 /* FOXAdditions-dummy.m in Sources */,
-				5B3D09562289A930007F2AD1 /* UITableViewCell+FOXAdditions.swift in Sources */,
-				5B3D09552289A930007F2AD1 /* NSObject+FOXAdditions.swift in Sources */,
-				5B3D09582289A930007F2AD1 /* UIAlertController+FOXAdditions.swift in Sources */,
-				5B3D09532289A930007F2AD1 /* Bundle+FOXAdditions.swift in Sources */,
-				5B3D09572289A930007F2AD1 /* UIView+FOXAdditions.swift in Sources */,
-				5B3D09542289A930007F2AD1 /* UIStackView+FOXAdditions.swift in Sources */,
-				5B3D09512289A930007F2AD1 /* Array+FOXAdditions.swift in Sources */,
-				5B3D09522289A930007F2AD1 /* Collection+FOXAdditions.swift in Sources */,
+				DC0AFAF9C9EF20E982D7B7F668B12919 /* Array+FOXAdditions.swift in Sources */,
+				84A02327AE7782228A48944F352654F4 /* Bundle+FOXAdditions.swift in Sources */,
+				0C0A79EE8CB3C21EB811B7311AF9A5C0 /* Collection+FOXAdditions.swift in Sources */,
+				46074B1E14C3CDC91084857C51D7DF30 /* FOXAdditions-dummy.m in Sources */,
+				84A700A55584343C88CCB8C75F7D206B /* NSObject+FOXAdditions.swift in Sources */,
+				FB163F50CA1336B86FD0E20CF4A14B5B /* UIAlertController+FOXAdditions.swift in Sources */,
+				AAE986CAE23C76A2302AB00E4A5DD20A /* UIStackView+FOXAdditions.swift in Sources */,
+				51CD9F59325A02891D99DF05DC06F86F /* UITableViewCell+FOXAdditions.swift in Sources */,
+				1CAA7C9C7C4406A60C3BE4518BDAE8D2 /* UIView+FOXAdditions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		01998572F2E18A682B2FFEAD6D23F3C6 /* PBXTargetDependency */ = {
+		77665354A41919D94CFCC0587C6B4121 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FOXAdditions;
-			target = 6EE054687496E4E2BAB3F8CA415243BA /* FOXAdditions */;
-			targetProxy = 0E77D03FB5F90F9824EC2D132D7E4537 /* PBXContainerItemProxy */;
+			target = 1248F1D8477A74326FF84353D6D046D3 /* FOXAdditions */;
+			targetProxy = 3966C2768BEB3E708ED107637715846F /* PBXContainerItemProxy */;
 		};
-		F436F68756C7EED441A12C2A10EABF73 /* PBXTargetDependency */ = {
+		DA326EA8655ED46C6E7D366D19D0BA7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FOXAdditions_Example";
-			target = 649C5865F9D14CAAF19AA046839CAD81 /* Pods-FOXAdditions_Example */;
-			targetProxy = 867AF7759A6A814ABD05DCCB61E62117 /* PBXContainerItemProxy */;
+			target = C51679B6997E88420A3C942BD5379FE5 /* Pods-FOXAdditions_Example */;
+			targetProxy = D9AD4BC363E46CE1A67140C21FADA95D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07240CFD092E3DE3A66825EE32910221 /* Release */ = {
+		0382F2DC06AFBE06FA7CB9FC8128B36D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 924213D5E2495A6A3DBC20980E43B513 /* FOXAdditions.xcconfig */;
+			baseConfigurationReference = 1BB944E8AEF4B3A01140B739166DA238 /* FOXAdditions.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -470,76 +465,7 @@
 			};
 			name = Release;
 		};
-		10713BC471DF2171AE02F3337916EA4C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E10D4FF2A660F92BD4611B815BE99EE /* Pods-FOXAdditions_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FOXAdditions_Tests/Pods-FOXAdditions_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FOXAdditions_Tests/Pods-FOXAdditions_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		292AE1B0AC3F65AC71DF1E60BA55C305 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48BADD2AD9BD4EC4BB6AED1020915AC2 /* Pods-FOXAdditions_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FOXAdditions_Tests/Pods-FOXAdditions_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FOXAdditions_Tests/Pods-FOXAdditions_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4CE281642D6EE9FAB113046B4B6328A0 /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -592,17 +518,54 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		666B9EF9F43C4EA27266505B698A8A07 /* Debug */ = {
+		278907E3B1BC8BBC3103FB57BD091F81 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 924213D5E2495A6A3DBC20980E43B513 /* FOXAdditions.xcconfig */;
+			baseConfigurationReference = 10E0F78764BEF07F36A305C27FFFF68B /* Pods-FOXAdditions_Example.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FOXAdditions_Example/Pods-FOXAdditions_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FOXAdditions_Example/Pods-FOXAdditions_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B4BD96499499079320272FFEA50B695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB944E8AEF4B3A01140B739166DA238 /* FOXAdditions.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -624,7 +587,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -632,7 +594,78 @@
 			};
 			name = Debug;
 		};
-		6DFA1578582149B7E24AD55CBA30F07A /* Debug */ = {
+		5BA0EF096CDE23D7C6FBF2863803426B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1247D04ADA3C19F4EEB63121150F4ED3 /* Pods-FOXAdditions_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FOXAdditions_Tests/Pods-FOXAdditions_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FOXAdditions_Tests/Pods-FOXAdditions_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADD5C84EC638BE71ED43C7DF9CECAD59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17B0D889E8990BBBAF5EC86423AC560 /* Pods-FOXAdditions_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FOXAdditions_Tests/Pods-FOXAdditions_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FOXAdditions_Tests/Pods-FOXAdditions_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -691,51 +724,17 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		BCE3441AF9D833208207FBDD880BE34D /* Release */ = {
+		DDE60C562EC8EEA9F16B881128F40519 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D5B3F4AC7716233E9F5F51D8B90D528 /* Pods-FOXAdditions_Example.release.xcconfig */;
+			baseConfigurationReference = D1A8DFF1A95C8315448F537E36E7B46A /* Pods-FOXAdditions_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FOXAdditions_Example/Pods-FOXAdditions_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FOXAdditions_Example/Pods-FOXAdditions_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E69AB5C47448A9E9777817BA965F83D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D245CB7D97C7932B8F07A7DA3A799109 /* Pods-FOXAdditions_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -768,38 +767,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		247A1922FEAD57C96D99A80F924ADDF4 /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD5C84EC638BE71ED43C7DF9CECAD59 /* Debug */,
+				5BA0EF096CDE23D7C6FBF2863803426B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F1B36CFC2F41A631DC1DE5C9ADAA34 /* Build configuration list for PBXNativeTarget "FOXAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4BD96499499079320272FFEA50B695 /* Debug */,
+				0382F2DC06AFBE06FA7CB9FC8128B36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DFA1578582149B7E24AD55CBA30F07A /* Debug */,
-				4CE281642D6EE9FAB113046B4B6328A0 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63AE25D18DF14AB1746F442F983D6DAC /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Tests" */ = {
+		B5BAB762780C1CDF084B93544D9F0298 /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				292AE1B0AC3F65AC71DF1E60BA55C305 /* Debug */,
-				10713BC471DF2171AE02F3337916EA4C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9C1D5A62095A7288B61E270AE7EBF8D1 /* Build configuration list for PBXNativeTarget "FOXAdditions" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				666B9EF9F43C4EA27266505B698A8A07 /* Debug */,
-				07240CFD092E3DE3A66825EE32910221 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF72AF285C6CF31E2020AEA8C9012193 /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E69AB5C47448A9E9777817BA965F83D0 /* Debug */,
-				BCE3441AF9D833208207FBDD880BE34D /* Release */,
+				DDE60C562EC8EEA9F16B881128F40519 /* Debug */,
+				278907E3B1BC8BBC3103FB57BD091F81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

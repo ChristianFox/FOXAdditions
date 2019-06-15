@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FOXAdditions'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'FOXAdditions blah.'
   s.description      = <<-DESC
 FOXAdditions blah blah.
