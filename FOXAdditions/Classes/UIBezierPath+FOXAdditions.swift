@@ -1,7 +1,7 @@
 
 import UIKit.UIBezierPath
 
-extension UIBezierPath {
+public extension UIBezierPath {
     
     class func fox_straightLine(withHead head:CGPoint, tail:CGPoint) -> UIBezierPath {
         
