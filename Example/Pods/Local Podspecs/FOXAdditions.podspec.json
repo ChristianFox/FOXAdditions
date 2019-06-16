@@ -1,6 +1,6 @@
 {
   "name": "FOXAdditions",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "summary": "FOXAdditions blah.",
   "description": "FOXAdditions blah blah.",
   "homepage": "https://kfxtech@bitbucket.org/kfx_pods/foxadditions.git",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://kfxtech@bitbucket.org/kfx_pods/foxadditions.git",
-    "tag": "0.3.0"
+    "tag": "0.3.1"
   },
   "platforms": {
     "ios": "11.0"
