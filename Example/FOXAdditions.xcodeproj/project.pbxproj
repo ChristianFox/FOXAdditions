@@ -31,6 +31,7 @@
 /* Begin PBXFileReference section */
 		10B36DF6133C8A5FD906D9DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		425B668E061F283621285B17 /* Pods-FOXAdditions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FOXAdditions_Tests.release.xcconfig"; path = "Target Support Files/Pods-FOXAdditions_Tests/Pods-FOXAdditions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5B19EE3522BCA7C700DCABFA /* NOTES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NOTES.md; sourceTree = "<group>"; };
 		5BE502A722B3F51700A195A7 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FOXAdditions_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOXAdditions_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,6 +150,7 @@
 				10B36DF6133C8A5FD906D9DC /* README.md */,
 				AA3F37765102182A3401A1D0 /* LICENSE */,
 				5BE502A722B3F51700A195A7 /* CHANGELOG.md */,
+				5B19EE3522BCA7C700DCABFA /* NOTES.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";

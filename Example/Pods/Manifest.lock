@@ -1,5 +1,5 @@
 PODS:
-  - FOXAdditions (0.3.1)
+  - FOXAdditions (0.4.0)
 
 DEPENDENCIES:
   - FOXAdditions (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FOXAdditions: a1acca92492b1b0984193a2599778d5678cb8497
+  FOXAdditions: 037884ffba92321d224fae169fb558daf10d76c3
 
 PODFILE CHECKSUM: 088ec390849187adeefb791e37523f519a4a1218
 
