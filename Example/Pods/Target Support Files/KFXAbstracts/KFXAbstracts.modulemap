@@ -1,0 +1,6 @@
+framework module KFXAbstracts {
+  umbrella header "KFXAbstracts-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -67,6 +67,18 @@ public extension Array {
         }
     }
 
+}
 
+extension Array where Element: Equatable {
+    
+    /**
+     Remove first collection element that is equal to the given `object`:
+     Found here: https://stackoverflow.com/a/45008042
+     **/
+    mutating func remove(object: Element) {
+        guard let index = index(of: object) else {return}
+        remove(at: index)
+    }
+    
 }
 

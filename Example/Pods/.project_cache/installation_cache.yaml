@@ -1,0 +1,129 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  FontBlaster:
+    BUILD_SETTINGS_CHECKSUM:
+      FontBlaster: d269bf44855745db7ff0f9b6728569c2
+    CHECKSUM: 04e16caf99e5e1133ce7ddcdfcd75c74498283e5
+    SPECS:
+      - FontBlaster (5.0.0)
+  FOXAdditions:
+    BUILD_SETTINGS_CHECKSUM:
+      FOXAdditions: 87f65841f6ba83560e3612690e0518f8
+    CHECKSUM: 037884ffba92321d224fae169fb558daf10d76c3
+    FILES:
+      - "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/FOXAdditions/Classes/Array+FOXAdditions.swift"
+      - "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/FOXAdditions/Classes/Bundle+FOXAdditions.swift"
+      - "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/FOXAdditions/Classes/Collection+FOXAdditions.swift"
+      - "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/FOXAdditions/Classes/NSObject+FOXAdditions.swift"
+      - "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/FOXAdditions/Classes/UIAlertController+FOXAdditions.swift"
+      - "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/FOXAdditions/Classes/UIBezierPath+FOXAdditions.swift"
+      - "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/FOXAdditions/Classes/UICollectionViewCell+FOXAdditions.swift"
+      - "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/FOXAdditions/Classes/UIStackView+FOXAdditions.swift"
+      - "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/FOXAdditions/Classes/UITableViewCell+FOXAdditions.swift"
+      - "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/FOXAdditions/Classes/UIView+FOXAdditions.swift"
+      - "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/LICENSE"
+      - "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/README.md"
+    SPECS:
+      - FOXAdditions (0.4.0)
+  KFXAbstracts:
+    BUILD_SETTINGS_CHECKSUM:
+      KFXAbstracts: abfb9086877153451006a7d123590f2e
+    CHECKSUM: 372249ead57adf768452004c1e0917a49236c659
+    SPECS:
+      - KFXAbstracts (1.1.0)
+  KFXAdditions:
+    BUILD_SETTINGS_CHECKSUM:
+      KFXAdditions: 19b47edad6893284925ed4809e446ccf
+    CHECKSUM: 47fa55f4a402cfd93c643321fc30efe499b09163
+    SPECS:
+      - KFXAdditions (2.5.0)
+  KFXBaseCells:
+    BUILD_SETTINGS_CHECKSUM:
+      KFXBaseCells: 47c687334b87a2c8b761213520cbeffb
+    CHECKSUM: 9c42c67d2ff0d7d2e4c3e1da2524e11d7ff12231
+    SPECS:
+      - KFXBaseCells (0.2.3)
+  KFXBaseViewControllers:
+    BUILD_SETTINGS_CHECKSUM:
+      KFXBaseViewControllers: 399518f003e31cc6c91272388bb78025
+    CHECKSUM: c50b1c981a0cca4a52c68469b568ffc73e49c48d
+    SPECS:
+      - KFXBaseViewControllers (0.9.3)
+  KFXBaseViews:
+    BUILD_SETTINGS_CHECKSUM:
+      KFXBaseViews: 0012d1f5833737dafbfab8118fa05e25
+    CHECKSUM: cac06a1d8c08076de5fd65b4eba7beee9d2b225f
+    SPECS:
+      - KFXBaseViews (0.6.1)
+  KFXCardView:
+    BUILD_SETTINGS_CHECKSUM:
+      KFXCardView: de317b8206e832ad6babcf78c7562314
+    CHECKSUM: b85d1e9b92a8d2415b751425bee72d9283766ac0
+    SPECS:
+      - KFXCardView (0.6.0)
+  KFXCore:
+    BUILD_SETTINGS_CHECKSUM:
+      KFXCore: b0b05626001a605f17a367c03fe42ef0
+    CHECKSUM: 927542a10885ee7389aec49d1bd3b1e6a3920ecc
+    SPECS:
+      - KFXCore (2.1.0)
+  KFXTextEditorVC:
+    BUILD_SETTINGS_CHECKSUM:
+      KFXTextEditorVC: 7143594a1942ab5b4b24c753b2b6ba1c
+    CHECKSUM: 93063aa6aba7476f866403d8b64e1a25e92fc177
+    SPECS:
+      - KFXTextEditorVC (0.2.0)
+  KFXTheming:
+    BUILD_SETTINGS_CHECKSUM:
+      KFXTheming: 46abf3740d2b6b9d9ec877064baaab29
+    CHECKSUM: 46e7ebab26baf6f755b1b5c7cfd495b44fea98d7
+    SPECS:
+      - KFXTheming (0.6.2)
+  KFXUtilities:
+    BUILD_SETTINGS_CHECKSUM:
+      KFXUtilities: 341bff2640f924351a01ff697e646365
+    CHECKSUM: b8be6ecf7b8df43b32afea2f9ce6e970b28d84b1
+    SPECS:
+      - KFXUtilities (2.3.0)
+  KFXViews:
+    BUILD_SETTINGS_CHECKSUM:
+      KFXViews: e7cabf94b9dad56599c82b9a5719adab
+    CHECKSUM: a9915ae39cb8aa4d5a226a8e15bb106faebdf0da
+    SPECS:
+      - KFXViews (0.8.2)
+  MZAppearance:
+    BUILD_SETTINGS_CHECKSUM:
+      MZAppearance: 4549fcc536e84762f7acb307d4f0ea0b
+    CHECKSUM: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
+    SPECS:
+      - MZAppearance (1.1.6)
+  MZFormSheetPresentationController:
+    BUILD_SETTINGS_CHECKSUM:
+      MZFormSheetPresentationController: 5105c7295625d7fd5c5e4acde3102077
+    CHECKSUM: fbfdbad31884f16fac17fbe3c44c168306cc1095
+    SPECS:
+      - MZFormSheetPresentationController (2.4.3)
+  NVActivityIndicatorView:
+    BUILD_SETTINGS_CHECKSUM:
+      NVActivityIndicatorView: f0eda403483062355c225f29103c7f8c
+    CHECKSUM: 4ca19fccc84595a78957336a086d00a49be6ce61
+    SPECS:
+      - NVActivityIndicatorView (4.6.1)
+      - NVActivityIndicatorView/Presenter (4.6.1)
+  Pods-FOXAdditions_Example:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: fe6c697307988f127b9f44f148556437
+      Release: fe6c697307988f127b9f44f148556437
+  Pods-FOXAdditions_Tests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: d9fd3628898dbd7897d589e2bbb60949
+      Release: d9fd3628898dbd7897d589e2bbb60949
+  SnapKit:
+    BUILD_SETTINGS_CHECKSUM:
+      SnapKit: f5f0fd32b0bbd5c4d1059d5c95a7c3d9
+    CHECKSUM: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+    SPECS:
+      - SnapKit (4.2.0)
+OBJECT_VERSION: 46

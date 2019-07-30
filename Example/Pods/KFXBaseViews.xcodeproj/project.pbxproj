@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D9CD7DD539177DC7E8384854D415DFB /* KFXCardView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BABD5F3FE272710C883D64D57D702477 /* KFXCardView.framework */; };
+		3C389D8ECF08FB3AC0699BA84CEB1BBE /* KFXBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13764E385CED36937D7A8585B6E2CA89 /* KFXBaseView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4739B2CCD3D55A3DDB0555F3BFB03DEE /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE44E6AC7B83D69EA03BC083ABE1B673 /* SnapKit.framework */; };
+		51F5A5E070F6D0F80ED11F770C9993CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F721758F4D20966FE12629C1B23A82F /* Foundation.framework */; };
+		58C50255923D8B954C64A6147C994F42 /* KFXBaseCardedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C7C19A7C2738220B83A9E187F36B09 /* KFXBaseCardedView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		67BB72A41C59EE0DEB109D7182A87344 /* KFXBaseViews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A48B48969E7945B6BAE375AF9D8C92A8 /* KFXBaseViews-dummy.m */; };
+		900FA4B63B727E97288ABC0A12086C74 /* KFXAbstracts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE327A03784DFC26A8829A77E4A8354A /* KFXAbstracts.framework */; };
+		E9D08593DB53F08D13D2879D8A6622E2 /* KFXBaseViews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B052E313AF65CDF002E60427D05D2D47 /* KFXBaseViews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F32B0A203999376DE553F5EDE5255038 /* KFXTheming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39FDDF6D454F22E6F82AFB9078C970C9 /* KFXTheming.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25AF42C98BA1FC516847D8E141614B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EDABDC8F09A4C275FF5AA1F0521553E /* SnapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
+			remoteInfo = SnapKit;
+		};
+		4C684B0DB56717475BDB385184B6C667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C84DCF05C194C4DF2E9257A028D691EC /* KFXCardView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 95905AF325E065706D5E978C2FED08B6;
+			remoteInfo = KFXCardView;
+		};
+		61CDA5A3B55E347201A9F9ED5782BEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE13D3525472CF25BCA4190226284A60 /* KFXTheming.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DFCFBFDAAD73EF11A978D1028773913B;
+			remoteInfo = KFXTheming;
+		};
+		BAB1D534F1C387F785893D0E83F4ED90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81D87BDF310642D89EDC915FB0BC2A09 /* KFXAbstracts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 59D5D99A344CEE6B648C93115DCD1B51;
+			remoteInfo = KFXAbstracts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C7C19A7C2738220B83A9E187F36B09 /* KFXBaseCardedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFXBaseCardedView.swift; path = KFXBaseViews/Classes/Views/KFXBaseCardedView.swift; sourceTree = "<group>"; };
+		0F721758F4D20966FE12629C1B23A82F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		13764E385CED36937D7A8585B6E2CA89 /* KFXBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KFXBaseView.swift; path = KFXBaseViews/Classes/Views/KFXBaseView.swift; sourceTree = "<group>"; };
+		39FDDF6D454F22E6F82AFB9078C970C9 /* KFXTheming.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KFXTheming.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		427420D8BE7673E3CD05D396223D5C30 /* KFXBaseViews.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KFXBaseViews.xcconfig; sourceTree = "<group>"; };
+		4E04A5A1AA39DA7E81BFA04FA79C63F6 /* KFXBaseViews-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFXBaseViews-prefix.pch"; sourceTree = "<group>"; };
+		5EDABDC8F09A4C275FF5AA1F0521553E /* SnapKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit; path = SnapKit.xcodeproj; sourceTree = "<group>"; };
+		6BFBFD56871CE2B4E329ED240D39ACFB /* KFXBaseViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KFXBaseViews.framework; path = KFXBaseViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		806EAFEA7B0A4E0DC0BC7F2AD39E73ED /* KFXBaseViews-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KFXBaseViews-Info.plist"; sourceTree = "<group>"; };
+		81D87BDF310642D89EDC915FB0BC2A09 /* KFXAbstracts */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXAbstracts; path = KFXAbstracts.xcodeproj; sourceTree = "<group>"; };
+		A48B48969E7945B6BAE375AF9D8C92A8 /* KFXBaseViews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KFXBaseViews-dummy.m"; sourceTree = "<group>"; };
+		B052E313AF65CDF002E60427D05D2D47 /* KFXBaseViews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KFXBaseViews-umbrella.h"; sourceTree = "<group>"; };
+		B86CA8AC2367E9F8AC1AF4D99AA7F921 /* KFXBaseViews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KFXBaseViews.modulemap; sourceTree = "<group>"; };
+		BABD5F3FE272710C883D64D57D702477 /* KFXCardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KFXCardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84DCF05C194C4DF2E9257A028D691EC /* KFXCardView */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXCardView; path = KFXCardView.xcodeproj; sourceTree = "<group>"; };
+		CE327A03784DFC26A8829A77E4A8354A /* KFXAbstracts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KFXAbstracts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE44E6AC7B83D69EA03BC083ABE1B673 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE13D3525472CF25BCA4190226284A60 /* KFXTheming */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXTheming; path = KFXTheming.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B262E959845EF2C812238855384B3E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F5A5E070F6D0F80ED11F770C9993CC /* Foundation.framework in Frameworks */,
+				900FA4B63B727E97288ABC0A12086C74 /* KFXAbstracts.framework in Frameworks */,
+				1D9CD7DD539177DC7E8384854D415DFB /* KFXCardView.framework in Frameworks */,
+				F32B0A203999376DE553F5EDE5255038 /* KFXTheming.framework in Frameworks */,
+				4739B2CCD3D55A3DDB0555F3BFB03DEE /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13521D5B174ADCC28251FE147001205E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0F721758F4D20966FE12629C1B23A82F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1E366119A22C54A9B98ABCC6A620D2D3 /* KFXBaseViews */ = {
+			isa = PBXGroup;
+			children = (
+				04C7C19A7C2738220B83A9E187F36B09 /* KFXBaseCardedView.swift */,
+				13764E385CED36937D7A8585B6E2CA89 /* KFXBaseView.swift */,
+				33120F5E5852BE8DCD5B04CD69DDB95D /* Support Files */,
+			);
+			name = KFXBaseViews;
+			path = KFXBaseViews;
+			sourceTree = "<group>";
+		};
+		27E1C286AB1CA5D682F6D5E9EC38666D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BFBFD56871CE2B4E329ED240D39ACFB /* KFXBaseViews.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		330CE99CE40FE65233DE0D520547F8B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE327A03784DFC26A8829A77E4A8354A /* KFXAbstracts.framework */,
+				BABD5F3FE272710C883D64D57D702477 /* KFXCardView.framework */,
+				39FDDF6D454F22E6F82AFB9078C970C9 /* KFXTheming.framework */,
+				CE44E6AC7B83D69EA03BC083ABE1B673 /* SnapKit.framework */,
+				13521D5B174ADCC28251FE147001205E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33120F5E5852BE8DCD5B04CD69DDB95D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B86CA8AC2367E9F8AC1AF4D99AA7F921 /* KFXBaseViews.modulemap */,
+				427420D8BE7673E3CD05D396223D5C30 /* KFXBaseViews.xcconfig */,
+				A48B48969E7945B6BAE375AF9D8C92A8 /* KFXBaseViews-dummy.m */,
+				806EAFEA7B0A4E0DC0BC7F2AD39E73ED /* KFXBaseViews-Info.plist */,
+				4E04A5A1AA39DA7E81BFA04FA79C63F6 /* KFXBaseViews-prefix.pch */,
+				B052E313AF65CDF002E60427D05D2D47 /* KFXBaseViews-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KFXBaseViews";
+			sourceTree = "<group>";
+		};
+		6FEC68CD11BE61C6415699BFCE1F2373 = {
+			isa = PBXGroup;
+			children = (
+				DB229CD93DBB410C80C1813267244264 /* Dependencies */,
+				330CE99CE40FE65233DE0D520547F8B9 /* Frameworks */,
+				1E366119A22C54A9B98ABCC6A620D2D3 /* KFXBaseViews */,
+				27E1C286AB1CA5D682F6D5E9EC38666D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB229CD93DBB410C80C1813267244264 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				81D87BDF310642D89EDC915FB0BC2A09 /* KFXAbstracts */,
+				C84DCF05C194C4DF2E9257A028D691EC /* KFXCardView */,
+				FE13D3525472CF25BCA4190226284A60 /* KFXTheming */,
+				5EDABDC8F09A4C275FF5AA1F0521553E /* SnapKit */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		823E6DFAC8682C6DE230ED0AF70FFE44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D08593DB53F08D13D2879D8A6622E2 /* KFXBaseViews-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E604CEEFAC25F2E9E95A5A6A7B8551D /* KFXBaseViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 444D34808DF6B3156A91FD235A030C57 /* Build configuration list for PBXNativeTarget "KFXBaseViews" */;
+			buildPhases = (
+				823E6DFAC8682C6DE230ED0AF70FFE44 /* Headers */,
+				4284317880AA272E475F625B871210DD /* Sources */,
+				B262E959845EF2C812238855384B3E43 /* Frameworks */,
+				B6E91158573330BDF376F858B2C375A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				338E0251EFDD7FD8D1FF55464FEE851C /* PBXTargetDependency */,
+				31A07BA9363D3103B0003CEADFE21886 /* PBXTargetDependency */,
+				D72E5C3C56E4957046B11EA81B17F48C /* PBXTargetDependency */,
+				66B5DA1B8B4C09DEB79FED5570751E91 /* PBXTargetDependency */,
+			);
+			name = KFXBaseViews;
+			productName = KFXBaseViews;
+			productReference = 6BFBFD56871CE2B4E329ED240D39ACFB /* KFXBaseViews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1B8325D2CE86894EEC47F42736EDEFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 76A79AFD0A188A29B97DD553BB81FD82 /* Build configuration list for PBXProject "KFXBaseViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6FEC68CD11BE61C6415699BFCE1F2373;
+			productRefGroup = 27E1C286AB1CA5D682F6D5E9EC38666D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 81D87BDF310642D89EDC915FB0BC2A09 /* KFXAbstracts */;
+				},
+				{
+					ProjectRef = FE13D3525472CF25BCA4190226284A60 /* KFXTheming */;
+				},
+				{
+					ProjectRef = C84DCF05C194C4DF2E9257A028D691EC /* KFXCardView */;
+				},
+				{
+					ProjectRef = 5EDABDC8F09A4C275FF5AA1F0521553E /* SnapKit */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6E604CEEFAC25F2E9E95A5A6A7B8551D /* KFXBaseViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6E91158573330BDF376F858B2C375A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4284317880AA272E475F625B871210DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C50255923D8B954C64A6147C994F42 /* KFXBaseCardedView.swift in Sources */,
+				3C389D8ECF08FB3AC0699BA84CEB1BBE /* KFXBaseView.swift in Sources */,
+				67BB72A41C59EE0DEB109D7182A87344 /* KFXBaseViews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31A07BA9363D3103B0003CEADFE21886 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXCardView;
+			targetProxy = 4C684B0DB56717475BDB385184B6C667 /* PBXContainerItemProxy */;
+		};
+		338E0251EFDD7FD8D1FF55464FEE851C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXAbstracts;
+			targetProxy = BAB1D534F1C387F785893D0E83F4ED90 /* PBXContainerItemProxy */;
+		};
+		66B5DA1B8B4C09DEB79FED5570751E91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			targetProxy = 25AF42C98BA1FC516847D8E141614B70 /* PBXContainerItemProxy */;
+		};
+		D72E5C3C56E4957046B11EA81B17F48C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXTheming;
+			targetProxy = 61CDA5A3B55E347201A9F9ED5782BEC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17F050DED63B9883A3E2F0B061FEA436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1AE65A27EEDF4CFAFE70B67EBA46B438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427420D8BE7673E3CD05D396223D5C30 /* KFXBaseViews.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KFXBaseViews/KFXBaseViews-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KFXBaseViews/KFXBaseViews-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KFXBaseViews/KFXBaseViews.modulemap";
+				PRODUCT_MODULE_NAME = KFXBaseViews;
+				PRODUCT_NAME = KFXBaseViews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC62BA7A492BFAD43901DB38B6756D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E7A5D73A6D5D1F339E61D5942DC0B3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427420D8BE7673E3CD05D396223D5C30 /* KFXBaseViews.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KFXBaseViews/KFXBaseViews-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KFXBaseViews/KFXBaseViews-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KFXBaseViews/KFXBaseViews.modulemap";
+				PRODUCT_MODULE_NAME = KFXBaseViews;
+				PRODUCT_NAME = KFXBaseViews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		444D34808DF6B3156A91FD235A030C57 /* Build configuration list for PBXNativeTarget "KFXBaseViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AE65A27EEDF4CFAFE70B67EBA46B438 /* Debug */,
+				E7A5D73A6D5D1F339E61D5942DC0B3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A79AFD0A188A29B97DD553BB81FD82 /* Build configuration list for PBXProject "KFXBaseViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC62BA7A492BFAD43901DB38B6756D50 /* Debug */,
+				17F050DED63B9883A3E2F0B061FEA436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1B8325D2CE86894EEC47F42736EDEFF /* Project object */;
+}

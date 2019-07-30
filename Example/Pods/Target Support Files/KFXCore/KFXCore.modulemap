@@ -1,0 +1,6 @@
+framework module KFXCore {
+  umbrella header "KFXCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

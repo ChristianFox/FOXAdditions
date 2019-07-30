@@ -1,0 +1,76 @@
+FontBlaster:
+  LABEL: FontBlaster
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/FontBlaster.xcodeproj"
+  UUID: E8D6DB5741E4A20C21FBD678CFB4C298
+FOXAdditions:
+  LABEL: FOXAdditions
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/FOXAdditions.xcodeproj"
+  UUID: 5E8AECA9F71601CFA2DD299F100E9AE6
+KFXAbstracts:
+  LABEL: KFXAbstracts
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/KFXAbstracts.xcodeproj"
+  UUID: 59D5D99A344CEE6B648C93115DCD1B51
+KFXAdditions:
+  LABEL: KFXAdditions
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/KFXAdditions.xcodeproj"
+  UUID: 67A3EF330AB3A81AC00950B231BA351A
+KFXBaseCells:
+  LABEL: KFXBaseCells
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/KFXBaseCells.xcodeproj"
+  UUID: DFC803E638B24F73D8DC2233B82282EE
+KFXBaseViewControllers:
+  LABEL: KFXBaseViewControllers
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/KFXBaseViewControllers.xcodeproj"
+  UUID: DD8F92856B6AFA0257888A075361917B
+KFXBaseViews:
+  LABEL: KFXBaseViews
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/KFXBaseViews.xcodeproj"
+  UUID: 6E604CEEFAC25F2E9E95A5A6A7B8551D
+KFXCardView:
+  LABEL: KFXCardView
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/KFXCardView.xcodeproj"
+  UUID: 95905AF325E065706D5E978C2FED08B6
+KFXCore:
+  LABEL: KFXCore
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/KFXCore.xcodeproj"
+  UUID: 1BDC751E25A5B37E9C9CA69FDE758AC8
+KFXTextEditorVC:
+  LABEL: KFXTextEditorVC
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/KFXTextEditorVC.xcodeproj"
+  UUID: 66D0EA18269367FD807B1BFE481AFABD
+KFXTheming:
+  LABEL: KFXTheming
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/KFXTheming.xcodeproj"
+  UUID: DFCFBFDAAD73EF11A978D1028773913B
+KFXUtilities:
+  LABEL: KFXUtilities
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/KFXUtilities.xcodeproj"
+  UUID: 7E09FC8940240B96DFB05B6B95B76EF0
+KFXViews:
+  LABEL: KFXViews
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/KFXViews.xcodeproj"
+  UUID: 6436E50A81270286E780276DC8530A92
+MZAppearance:
+  LABEL: MZAppearance
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/MZAppearance.xcodeproj"
+  UUID: 138F93BA9ED0BA0F8CD8762816F88727
+MZFormSheetPresentationController:
+  LABEL: MZFormSheetPresentationController
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/MZFormSheetPresentationController.xcodeproj"
+  UUID: 0C21A8D263BAF88EBC66E775B9221D32
+NVActivityIndicatorView:
+  LABEL: NVActivityIndicatorView
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/NVActivityIndicatorView.xcodeproj"
+  UUID: 6156770F92C573ACA75CA35382CE68F8
+Pods-FOXAdditions_Example:
+  LABEL: Pods-FOXAdditions_Example
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/Pods.xcodeproj"
+  UUID: C51679B6997E88420A3C942BD5379FE5
+Pods-FOXAdditions_Tests:
+  LABEL: Pods-FOXAdditions_Tests
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/Pods.xcodeproj"
+  UUID: D6A19982623E7094FF33081CDE32B5CF
+SnapKit:
+  LABEL: SnapKit
+  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/SnapKit.xcodeproj"
+  UUID: 6913FCF4B90C224E55FE5C821AFB90D2

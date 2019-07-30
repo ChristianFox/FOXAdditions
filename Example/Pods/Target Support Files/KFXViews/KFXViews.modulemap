@@ -1,0 +1,6 @@
+framework module KFXViews {
+  umbrella header "KFXViews-umbrella.h"
+
+  export *
+  module * { export * }
+}

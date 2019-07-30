@@ -7,34 +7,112 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13AA7BDD82AA257588214E4AE4971FAF /* UIStackView+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72FE6A5DD933AA1BD5BC4A4FF3EA7CC /* UIStackView+FOXAdditions.swift */; };
-		1E8EC717D519AF401B2AD4239BDC3854 /* FOXAdditions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EDD0C1258685C0C389C5F909CB3F976 /* FOXAdditions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D58F0C8F05B0B6CEC99CD6AC524A302 /* UIBezierPath+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B6C00C40379C20D1518CEC766055C0 /* UIBezierPath+FOXAdditions.swift */; };
+		0EEF2838F8DA52EC5F03FB6BFA9A51A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3EA17322BF97BFDEAC1FC147390521B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3F8C1400604CE71D3485549C5D363E25 /* Array+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD38FE044F021886C31D13A7162FD55 /* Array+FOXAdditions.swift */; };
-		637461C357A9AFCADA7DB5D863D46227 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		66171E9650CE52E840FAE0500898B1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6D3A18FBD9C78F35974DED67657392CE /* NSObject+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE0EC1CE21E5D65FF9854D015176452 /* NSObject+FOXAdditions.swift */; };
-		7F0AA68359B5F5CDA5184F946A97153D /* UITableViewCell+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9379912209D2EC5CE23B3A5D9CA326 /* UITableViewCell+FOXAdditions.swift */; };
+		4E1A2B8316EA8F7C3A459BD3EC9D876C /* Pods-FOXAdditions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0523EACFB13CC9C60E165E9504438168 /* Pods-FOXAdditions_Example-dummy.m */; };
+		8355E32BEB89D6113D0DF8A7041E38F4 /* Pods-FOXAdditions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E01C6311E2F67768A7C26967EC98932D /* Pods-FOXAdditions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92430E1CF626A886D97CB79731C22720 /* Pods-FOXAdditions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE44320465D6D6C787CD506B40E81FDA /* Pods-FOXAdditions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96D2ACF8CF9E4002A08B1416924C2472 /* Bundle+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B69E2C55AA1F51C7C554578342A3DF /* Bundle+FOXAdditions.swift */; };
-		9DEEC87E98BAA6AB8E2FCE4F7FDC446E /* UIAlertController+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7057D32CCE0A21E2AF5FA651730F0978 /* UIAlertController+FOXAdditions.swift */; };
-		9E61A25830979313187E96B5E32B4DE8 /* Collection+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F9894C290AC91197504F734E5E826 /* Collection+FOXAdditions.swift */; };
-		BFB786A70C5041AF78B1414E83AF699E /* Pods-FOXAdditions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E01C6311E2F67768A7C26967EC98932D /* Pods-FOXAdditions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC203B922328928827421DB8A112CCD5 /* Pods-FOXAdditions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0523EACFB13CC9C60E165E9504438168 /* Pods-FOXAdditions_Example-dummy.m */; };
 		DB4E9B2757AFD0166A8E9037CA85CEF5 /* Pods-FOXAdditions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC55BFBA083E22E248AE1E845A275D9 /* Pods-FOXAdditions_Tests-dummy.m */; };
-		E7A66875D8F2C66506219CA6C91C20D4 /* FOXAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D52C22E31B9EB733290E9340F6DCFD2A /* FOXAdditions-dummy.m */; };
-		F4E58D4FF0FDF78F21AA37EC9002F36A /* UIView+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DAC5BCFE06ABDC476B08A77B12022E /* UIView+FOXAdditions.swift */; };
-		F73675FDFBFB4FF0A394E7CE41E9BE4E /* UICollectionViewCell+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7BC92505C2E24D600A32A65D3179DD /* UICollectionViewCell+FOXAdditions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3966C2768BEB3E708ED107637715846F /* PBXContainerItemProxy */ = {
+		0294067709D73F708DD5136AF005A9D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			containerPortal = 790FAF894F6B11F0800AC7A784DB6BE4 /* FOXAdditions.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 1248F1D8477A74326FF84353D6D046D3;
+			remoteGlobalIDString = 5E8AECA9F71601CFA2DD299F100E9AE6;
 			remoteInfo = FOXAdditions;
+		};
+		072CE4A9081E501A326ABD3248E0E926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0507B5FFE95E3F13E273742396F5842B /* SnapKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
+			remoteInfo = SnapKit;
+		};
+		0C7355A811B1DFE5CB7A0A71202FBDAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBAAD3619421CF01877D01DFF0979410 /* MZAppearance.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 138F93BA9ED0BA0F8CD8762816F88727;
+			remoteInfo = MZAppearance;
+		};
+		1492EF201F536C330943490B1DA71AD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB1BBF77EB20EBC3B3E3D708CB1FE79A /* KFXBaseViews.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E604CEEFAC25F2E9E95A5A6A7B8551D;
+			remoteInfo = KFXBaseViews;
+		};
+		1D0B1C34126346411D37828747342027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF4D912FD94AB7DFFCAE08CBA3E0E105 /* NVActivityIndicatorView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6156770F92C573ACA75CA35382CE68F8;
+			remoteInfo = NVActivityIndicatorView;
+		};
+		340CA5A862218B6F913CA46746CE1CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C69A9423FCFA12795813847267D80C1 /* KFXCardView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 95905AF325E065706D5E978C2FED08B6;
+			remoteInfo = KFXCardView;
+		};
+		492199DCB2C4466703A36F6D9F7BFEE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB253C73D6388DC67ADEA6D352315B9D /* KFXAdditions.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 67A3EF330AB3A81AC00950B231BA351A;
+			remoteInfo = KFXAdditions;
+		};
+		5CD8976CD1EE3CB95678A81FE83DDA36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FFDFB2BDA361200FA7C0B194BB19E4E /* KFXTheming.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DFCFBFDAAD73EF11A978D1028773913B;
+			remoteInfo = KFXTheming;
+		};
+		5D3980C2D8A8979B5BFC0FCA4F20D4B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729F5894442E692144BA3CB10F4B92A0 /* KFXViews.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6436E50A81270286E780276DC8530A92;
+			remoteInfo = KFXViews;
+		};
+		613D0838B3ACD901C988864AA3AA786D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E2B5AF2436596B5A6832FBEBB50451 /* MZFormSheetPresentationController.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C21A8D263BAF88EBC66E775B9221D32;
+			remoteInfo = MZFormSheetPresentationController;
+		};
+		A07D5BEEADFE19A8F64F5B241D637F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34FF94A971645B413BEA565ECCE20929 /* KFXAbstracts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 59D5D99A344CEE6B648C93115DCD1B51;
+			remoteInfo = KFXAbstracts;
+		};
+		B534010CF0D0718D2B993200D1EA8272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E88235B5F1636215ABB9290F445E71A2 /* KFXUtilities.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E09FC8940240B96DFB05B6B95B76EF0;
+			remoteInfo = KFXUtilities;
+		};
+		B5E430B504D741F15A1AE9F56EDABCD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90FFF883D08D3B7F443DF98CFE80C728 /* FontBlaster.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E8D6DB5741E4A20C21FBD678CFB4C298;
+			remoteInfo = FontBlaster;
+		};
+		C061177514433E276D1AE3F661F71D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6097D529D38C69686DADE2B9C9FD0ACE /* KFXBaseCells.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DFC803E638B24F73D8DC2233B82282EE;
+			remoteInfo = KFXBaseCells;
 		};
 		D9AD4BC363E46CE1A67140C21FADA95D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -43,74 +121,84 @@
 			remoteGlobalIDString = C51679B6997E88420A3C942BD5379FE5;
 			remoteInfo = "Pods-FOXAdditions_Example";
 		};
+		EA5E57930B0CFBDF73C693EFAA9E5753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CD5A9982F4365F5E3B52428B4DB617 /* KFXBaseViewControllers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DD8F92856B6AFA0257888A075361917B;
+			remoteInfo = KFXBaseViewControllers;
+		};
+		F933D8A42ABBF30EC3DE574817D9A0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF1FD187E96A268F6E01925932E20C98 /* KFXTextEditorVC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 66D0EA18269367FD807B1BFE481AFABD;
+			remoteInfo = KFXTextEditorVC;
+		};
+		FDA7FB4C7E1F48508E384B1FB7CCD9F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBCDE6310E944A9C18E52C9D09949000 /* KFXCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BDC751E25A5B37E9C9CA69FDE758AC8;
+			remoteInfo = KFXCore;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00E970F8763298D01388E2E13D367354 /* Pods-FOXAdditions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0507B5FFE95E3F13E273742396F5842B /* SnapKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit; path = SnapKit.xcodeproj; sourceTree = "<group>"; };
 		0523EACFB13CC9C60E165E9504438168 /* Pods-FOXAdditions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FOXAdditions_Example-dummy.m"; sourceTree = "<group>"; };
-		08103EF8B51C27C5537BFD6BF1E9EE37 /* FOXAdditions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FOXAdditions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		10E0F78764BEF07F36A305C27FFFF68B /* Pods-FOXAdditions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1247D04ADA3C19F4EEB63121150F4ED3 /* Pods-FOXAdditions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		19B69E2C55AA1F51C7C554578342A3DF /* Bundle+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+FOXAdditions.swift"; path = "FOXAdditions/Classes/Bundle+FOXAdditions.swift"; sourceTree = "<group>"; };
 		1CD679F0BB649985341719774DD9833C /* Pods_FOXAdditions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FOXAdditions_Tests.framework; path = "Pods-FOXAdditions_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FD47E52C7D7A065E3FAE7DF61772D9E /* Pods-FOXAdditions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Example-Info.plist"; sourceTree = "<group>"; };
 		2410D0544D633282E75BB51736FBEE74 /* Pods-FOXAdditions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FOXAdditions_Example.modulemap"; sourceTree = "<group>"; };
 		2568F38731D829F004DACDF9287866DF /* Pods-FOXAdditions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FOXAdditions_Example-frameworks.sh"; sourceTree = "<group>"; };
-		30227CE50A97D97DC6515D75BF7DE864 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		403483C652F83D9B41B601EF855EE0A9 /* FOXAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FOXAdditions.xcconfig; sourceTree = "<group>"; };
+		34FF94A971645B413BEA565ECCE20929 /* KFXAbstracts */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXAbstracts; path = KFXAbstracts.xcodeproj; sourceTree = "<group>"; };
 		420B9A1245226B2D92E4B04381131A00 /* Pods_FOXAdditions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FOXAdditions_Example.framework; path = "Pods-FOXAdditions_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E2B5AF2436596B5A6832FBEBB50451 /* MZFormSheetPresentationController */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MZFormSheetPresentationController; path = MZFormSheetPresentationController.xcodeproj; sourceTree = "<group>"; };
 		56DF9271EBFF33930608B3596867F667 /* Pods-FOXAdditions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FOXAdditions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		572EB95FDBDA218B5137B610A0F16EAA /* Pods-FOXAdditions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Tests-Info.plist"; sourceTree = "<group>"; };
-		589F9894C290AC91197504F734E5E826 /* Collection+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+FOXAdditions.swift"; path = "FOXAdditions/Classes/Collection+FOXAdditions.swift"; sourceTree = "<group>"; };
+		6097D529D38C69686DADE2B9C9FD0ACE /* KFXBaseCells */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXBaseCells; path = KFXBaseCells.xcodeproj; sourceTree = "<group>"; };
+		60CD5A9982F4365F5E3B52428B4DB617 /* KFXBaseViewControllers */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXBaseViewControllers; path = KFXBaseViewControllers.xcodeproj; sourceTree = "<group>"; };
 		67A58DB9EDFA3D3236FB7F9959C83655 /* Pods-FOXAdditions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FOXAdditions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6FA033D43FB36A2B565A09F86E66704C /* FOXAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FOXAdditions-prefix.pch"; sourceTree = "<group>"; };
-		7057D32CCE0A21E2AF5FA651730F0978 /* UIAlertController+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIAlertController+FOXAdditions.swift"; sourceTree = "<group>"; };
-		7B7BC92505C2E24D600A32A65D3179DD /* UICollectionViewCell+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionViewCell+FOXAdditions.swift"; path = "FOXAdditions/Classes/UICollectionViewCell+FOXAdditions.swift"; sourceTree = "<group>"; };
-		88B6C00C40379C20D1518CEC766055C0 /* UIBezierPath+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBezierPath+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIBezierPath+FOXAdditions.swift"; sourceTree = "<group>"; };
-		8DE542989E3283B212E985291640CD73 /* FOXAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FOXAdditions.framework; path = FOXAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E9379912209D2EC5CE23B3A5D9CA326 /* UITableViewCell+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+FOXAdditions.swift"; path = "FOXAdditions/Classes/UITableViewCell+FOXAdditions.swift"; sourceTree = "<group>"; };
-		8EDD0C1258685C0C389C5F909CB3F976 /* FOXAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FOXAdditions-umbrella.h"; sourceTree = "<group>"; };
-		982C93D22BED5C2C9508E46DC1D9D10D /* FOXAdditions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FOXAdditions.modulemap; sourceTree = "<group>"; };
-		9BD38FE044F021886C31D13A7162FD55 /* Array+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+FOXAdditions.swift"; path = "FOXAdditions/Classes/Array+FOXAdditions.swift"; sourceTree = "<group>"; };
-		9CE0EC1CE21E5D65FF9854D015176452 /* NSObject+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+FOXAdditions.swift"; path = "FOXAdditions/Classes/NSObject+FOXAdditions.swift"; sourceTree = "<group>"; };
+		6FFDFB2BDA361200FA7C0B194BB19E4E /* KFXTheming */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXTheming; path = KFXTheming.xcodeproj; sourceTree = "<group>"; };
+		729F5894442E692144BA3CB10F4B92A0 /* KFXViews */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXViews; path = KFXViews.xcodeproj; sourceTree = "<group>"; };
+		790FAF894F6B11F0800AC7A784DB6BE4 /* FOXAdditions */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FOXAdditions; path = FOXAdditions.xcodeproj; sourceTree = "<group>"; };
+		8C69A9423FCFA12795813847267D80C1 /* KFXCardView */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXCardView; path = KFXCardView.xcodeproj; sourceTree = "<group>"; };
+		90FFF883D08D3B7F443DF98CFE80C728 /* FontBlaster */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FontBlaster; path = FontBlaster.xcodeproj; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A17B0D889E8990BBBAF5EC86423AC560 /* Pods-FOXAdditions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE44320465D6D6C787CD506B40E81FDA /* Pods-FOXAdditions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FOXAdditions_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B72FE6A5DD933AA1BD5BC4A4FF3EA7CC /* UIStackView+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIStackView+FOXAdditions.swift"; sourceTree = "<group>"; };
-		C0DAC5BCFE06ABDC476B08A77B12022E /* UIView+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIView+FOXAdditions.swift"; sourceTree = "<group>"; };
-		C2208BE3C5610FBEFF8781A3AF6CA3EE /* FOXAdditions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FOXAdditions-Info.plist"; sourceTree = "<group>"; };
+		AF4D912FD94AB7DFFCAE08CBA3E0E105 /* NVActivityIndicatorView */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NVActivityIndicatorView; path = NVActivityIndicatorView.xcodeproj; sourceTree = "<group>"; };
+		BB253C73D6388DC67ADEA6D352315B9D /* KFXAdditions */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXAdditions; path = KFXAdditions.xcodeproj; sourceTree = "<group>"; };
+		BBAAD3619421CF01877D01DFF0979410 /* MZAppearance */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MZAppearance; path = MZAppearance.xcodeproj; sourceTree = "<group>"; };
+		BBCDE6310E944A9C18E52C9D09949000 /* KFXCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXCore; path = KFXCore.xcodeproj; sourceTree = "<group>"; };
+		CB1BBF77EB20EBC3B3E3D708CB1FE79A /* KFXBaseViews */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXBaseViews; path = KFXBaseViews.xcodeproj; sourceTree = "<group>"; };
+		CF1FD187E96A268F6E01925932E20C98 /* KFXTextEditorVC */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXTextEditorVC; path = KFXTextEditorVC.xcodeproj; sourceTree = "<group>"; };
 		D1A8DFF1A95C8315448F537E36E7B46A /* Pods-FOXAdditions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FOXAdditions_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D52C22E31B9EB733290E9340F6DCFD2A /* FOXAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FOXAdditions-dummy.m"; sourceTree = "<group>"; };
-		DFD8F0B7B1AA7692FA5FBD65609E9F5D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E01C6311E2F67768A7C26967EC98932D /* Pods-FOXAdditions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FOXAdditions_Example-umbrella.h"; sourceTree = "<group>"; };
+		E88235B5F1636215ABB9290F445E71A2 /* KFXUtilities */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KFXUtilities; path = KFXUtilities.xcodeproj; sourceTree = "<group>"; };
 		F1D8808E290B06E7CF045DFAC99A2BC1 /* Pods-FOXAdditions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FOXAdditions_Tests.modulemap"; sourceTree = "<group>"; };
 		F764D680A936D603ABA829818BC17099 /* Pods-FOXAdditions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FOXAdditions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FDC55BFBA083E22E248AE1E845A275D9 /* Pods-FOXAdditions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FOXAdditions_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		271A6B4CE154E267CF11F2636879BE61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEF2838F8DA52EC5F03FB6BFA9A51A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3C1372CFC980A8D3E1BA4A3BF6A54F11 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3EA17322BF97BFDEAC1FC147390521B2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5CB8BC48BEB345B2ED1FECD796F0B356 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				66171E9650CE52E840FAE0500898B1A1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A21A4E404EAEBAC3F48333A7D082133B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				637461C357A9AFCADA7DB5D863D46227 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,30 +221,10 @@
 			path = "Target Support Files/Pods-FOXAdditions_Tests";
 			sourceTree = "<group>";
 		};
-		16B1709FC0C5A4A5EC107322778C2754 /* FOXAdditions */ = {
+		3BCC32898B21F21B73E7E0D5869E22FB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9BD38FE044F021886C31D13A7162FD55 /* Array+FOXAdditions.swift */,
-				19B69E2C55AA1F51C7C554578342A3DF /* Bundle+FOXAdditions.swift */,
-				589F9894C290AC91197504F734E5E826 /* Collection+FOXAdditions.swift */,
-				9CE0EC1CE21E5D65FF9854D015176452 /* NSObject+FOXAdditions.swift */,
-				7057D32CCE0A21E2AF5FA651730F0978 /* UIAlertController+FOXAdditions.swift */,
-				88B6C00C40379C20D1518CEC766055C0 /* UIBezierPath+FOXAdditions.swift */,
-				7B7BC92505C2E24D600A32A65D3179DD /* UICollectionViewCell+FOXAdditions.swift */,
-				B72FE6A5DD933AA1BD5BC4A4FF3EA7CC /* UIStackView+FOXAdditions.swift */,
-				8E9379912209D2EC5CE23B3A5D9CA326 /* UITableViewCell+FOXAdditions.swift */,
-				C0DAC5BCFE06ABDC476B08A77B12022E /* UIView+FOXAdditions.swift */,
-				D59791597A35CD4E4818CCA2D04AD31A /* Pod */,
-				C0DCADA972EE5A5B88BD729906B28F6F /* Support Files */,
-			);
-			name = FOXAdditions;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5BB2C37C08E4A9B8B24EF7C680B8A922 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				16B1709FC0C5A4A5EC107322778C2754 /* FOXAdditions */,
+				790FAF894F6B11F0800AC7A784DB6BE4 /* FOXAdditions */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -170,14 +238,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		86833FACC73F5B0DB1A2E03077179266 /* Products */ = {
+		9378329357912530279A14617356EB32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DE542989E3283B212E985291640CD73 /* FOXAdditions.framework */,
 				420B9A1245226B2D92E4B04381131A00 /* Pods_FOXAdditions_Example.framework */,
 				1CD679F0BB649985341719774DD9833C /* Pods_FOXAdditions_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BD79DD122A61E1DD997CE654A1AFA18E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90FFF883D08D3B7F443DF98CFE80C728 /* FontBlaster */,
+				34FF94A971645B413BEA565ECCE20929 /* KFXAbstracts */,
+				BB253C73D6388DC67ADEA6D352315B9D /* KFXAdditions */,
+				6097D529D38C69686DADE2B9C9FD0ACE /* KFXBaseCells */,
+				60CD5A9982F4365F5E3B52428B4DB617 /* KFXBaseViewControllers */,
+				CB1BBF77EB20EBC3B3E3D708CB1FE79A /* KFXBaseViews */,
+				8C69A9423FCFA12795813847267D80C1 /* KFXCardView */,
+				BBCDE6310E944A9C18E52C9D09949000 /* KFXCore */,
+				CF1FD187E96A268F6E01925932E20C98 /* KFXTextEditorVC */,
+				6FFDFB2BDA361200FA7C0B194BB19E4E /* KFXTheming */,
+				E88235B5F1636215ABB9290F445E71A2 /* KFXUtilities */,
+				729F5894442E692144BA3CB10F4B92A0 /* KFXViews */,
+				BBAAD3619421CF01877D01DFF0979410 /* MZAppearance */,
+				46E2B5AF2436596B5A6832FBEBB50451 /* MZFormSheetPresentationController */,
+				AF4D912FD94AB7DFFCAE08CBA3E0E105 /* NVActivityIndicatorView */,
+				0507B5FFE95E3F13E273742396F5842B /* SnapKit */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -188,27 +278,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C0DCADA972EE5A5B88BD729906B28F6F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				982C93D22BED5C2C9508E46DC1D9D10D /* FOXAdditions.modulemap */,
-				403483C652F83D9B41B601EF855EE0A9 /* FOXAdditions.xcconfig */,
-				D52C22E31B9EB733290E9340F6DCFD2A /* FOXAdditions-dummy.m */,
-				C2208BE3C5610FBEFF8781A3AF6CA3EE /* FOXAdditions-Info.plist */,
-				6FA033D43FB36A2B565A09F86E66704C /* FOXAdditions-prefix.pch */,
-				8EDD0C1258685C0C389C5F909CB3F976 /* FOXAdditions-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FOXAdditions";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5BB2C37C08E4A9B8B24EF7C680B8A922 /* Development Pods */,
+				3BCC32898B21F21B73E7E0D5869E22FB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				86833FACC73F5B0DB1A2E03077179266 /* Products */,
+				BD79DD122A61E1DD997CE654A1AFA18E /* Pods */,
+				9378329357912530279A14617356EB32 /* Products */,
 				6857051FF6F0B1B3FE23A32D694B47C0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -219,16 +296,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D59791597A35CD4E4818CCA2D04AD31A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				08103EF8B51C27C5537BFD6BF1E9EE37 /* FOXAdditions.podspec */,
-				30227CE50A97D97DC6515D75BF7DE864 /* LICENSE */,
-				DFD8F0B7B1AA7692FA5FBD65609E9F5D /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		EBC2E0BC0C079471EAC3CE497D0C6588 /* Pods-FOXAdditions_Example */ = {
@@ -251,19 +318,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		07E4EE57F0EE91A98EF5B61D1CFA2415 /* Headers */ = {
+		3BF93CF6EF8066DFED512791D1DEBEAB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB786A70C5041AF78B1414E83AF699E /* Pods-FOXAdditions_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		647F1E57DB3B952E8918AFCB0E87E598 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E8EC717D519AF401B2AD4239BDC3854 /* FOXAdditions-umbrella.h in Headers */,
+				8355E32BEB89D6113D0DF8A7041E38F4 /* Pods-FOXAdditions_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,37 +337,35 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1248F1D8477A74326FF84353D6D046D3 /* FOXAdditions */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1CC32D476A64F7AF0C1775FCC63798A5 /* Build configuration list for PBXNativeTarget "FOXAdditions" */;
-			buildPhases = (
-				647F1E57DB3B952E8918AFCB0E87E598 /* Headers */,
-				14483D9463245B0A8E8A3F49F96235EE /* Sources */,
-				5CB8BC48BEB345B2ED1FECD796F0B356 /* Frameworks */,
-				92437B109A5B338E2A367B684CDD8711 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FOXAdditions;
-			productName = FOXAdditions;
-			productReference = 8DE542989E3283B212E985291640CD73 /* FOXAdditions.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		C51679B6997E88420A3C942BD5379FE5 /* Pods-FOXAdditions_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5BAB762780C1CDF084B93544D9F0298 /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Example" */;
+			buildConfigurationList = 9D1BC8FAEACBFA8F2C4E211FB0917CA7 /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Example" */;
 			buildPhases = (
-				07E4EE57F0EE91A98EF5B61D1CFA2415 /* Headers */,
-				C5CAA81EFD6600FE8306A6C89B5677A5 /* Sources */,
-				A21A4E404EAEBAC3F48333A7D082133B /* Frameworks */,
-				D516E07B7639BC670EFF804B790EC215 /* Resources */,
+				3BF93CF6EF8066DFED512791D1DEBEAB /* Headers */,
+				A61FBAEAFBBC3E098B54991512102D6E /* Sources */,
+				271A6B4CE154E267CF11F2636879BE61 /* Frameworks */,
+				FE9E0AB2EBF8F2969B25196A5E14B0FB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				77665354A41919D94CFCC0587C6B4121 /* PBXTargetDependency */,
+				E3608ECA827F2D0E0E3842FEDFD09D75 /* PBXTargetDependency */,
+				3B8EA5012E9430A39A7213B3B4220BCA /* PBXTargetDependency */,
+				2A3DE333D6E764807E0D081B10FE11BA /* PBXTargetDependency */,
+				DB2E1959DCA79909488E9D3DD7568455 /* PBXTargetDependency */,
+				F1F1F6F100A14A5A317C2FF88030B84F /* PBXTargetDependency */,
+				AB6FFE8B6637B63722DB82319BBA23CD /* PBXTargetDependency */,
+				0699859B074CF63A70AB8AE0F3D156A4 /* PBXTargetDependency */,
+				6CBF6EFC802542D0BEFA41DD6727FF26 /* PBXTargetDependency */,
+				A127F5F9F679765C7699017B0790B643 /* PBXTargetDependency */,
+				6B6F4F15584D3061D26C46B3FD636553 /* PBXTargetDependency */,
+				1B811143CE7436258C0E95C23B6E1A76 /* PBXTargetDependency */,
+				FB553F3559E3FA4689828C8B361E105B /* PBXTargetDependency */,
+				26FE93F68DD2827883779B7136BE65EA /* PBXTargetDependency */,
+				0A1FDDF36CEC6CF71C284EBD091DB5B1 /* PBXTargetDependency */,
+				AE4DB1A198FEB893289F19B842998819 /* PBXTargetDependency */,
+				15A6E0768AC9260D5BD6DC5AB77C7473 /* PBXTargetDependency */,
+				C5D80713C5D653AAEA267E459F5ADCF3 /* PBXTargetDependency */,
 			);
 			name = "Pods-FOXAdditions_Example";
 			productName = "Pods-FOXAdditions_Example";
@@ -351,11 +408,63 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 86833FACC73F5B0DB1A2E03077179266 /* Products */;
+			productRefGroup = 9378329357912530279A14617356EB32 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 790FAF894F6B11F0800AC7A784DB6BE4 /* FOXAdditions */;
+				},
+				{
+					ProjectRef = 90FFF883D08D3B7F443DF98CFE80C728 /* FontBlaster */;
+				},
+				{
+					ProjectRef = 34FF94A971645B413BEA565ECCE20929 /* KFXAbstracts */;
+				},
+				{
+					ProjectRef = BB253C73D6388DC67ADEA6D352315B9D /* KFXAdditions */;
+				},
+				{
+					ProjectRef = 6097D529D38C69686DADE2B9C9FD0ACE /* KFXBaseCells */;
+				},
+				{
+					ProjectRef = 60CD5A9982F4365F5E3B52428B4DB617 /* KFXBaseViewControllers */;
+				},
+				{
+					ProjectRef = CB1BBF77EB20EBC3B3E3D708CB1FE79A /* KFXBaseViews */;
+				},
+				{
+					ProjectRef = 8C69A9423FCFA12795813847267D80C1 /* KFXCardView */;
+				},
+				{
+					ProjectRef = BBCDE6310E944A9C18E52C9D09949000 /* KFXCore */;
+				},
+				{
+					ProjectRef = CF1FD187E96A268F6E01925932E20C98 /* KFXTextEditorVC */;
+				},
+				{
+					ProjectRef = 6FFDFB2BDA361200FA7C0B194BB19E4E /* KFXTheming */;
+				},
+				{
+					ProjectRef = E88235B5F1636215ABB9290F445E71A2 /* KFXUtilities */;
+				},
+				{
+					ProjectRef = 729F5894442E692144BA3CB10F4B92A0 /* KFXViews */;
+				},
+				{
+					ProjectRef = BBAAD3619421CF01877D01DFF0979410 /* MZAppearance */;
+				},
+				{
+					ProjectRef = 46E2B5AF2436596B5A6832FBEBB50451 /* MZFormSheetPresentationController */;
+				},
+				{
+					ProjectRef = AF4D912FD94AB7DFFCAE08CBA3E0E105 /* NVActivityIndicatorView */;
+				},
+				{
+					ProjectRef = 0507B5FFE95E3F13E273742396F5842B /* SnapKit */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				1248F1D8477A74326FF84353D6D046D3 /* FOXAdditions */,
 				C51679B6997E88420A3C942BD5379FE5 /* Pods-FOXAdditions_Example */,
 				D6A19982623E7094FF33081CDE32B5CF /* Pods-FOXAdditions_Tests */,
 			);
@@ -370,14 +479,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92437B109A5B338E2A367B684CDD8711 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D516E07B7639BC670EFF804B790EC215 /* Resources */ = {
+		FE9E0AB2EBF8F2969B25196A5E14B0FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -395,46 +497,107 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		14483D9463245B0A8E8A3F49F96235EE /* Sources */ = {
+		A61FBAEAFBBC3E098B54991512102D6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8C1400604CE71D3485549C5D363E25 /* Array+FOXAdditions.swift in Sources */,
-				96D2ACF8CF9E4002A08B1416924C2472 /* Bundle+FOXAdditions.swift in Sources */,
-				9E61A25830979313187E96B5E32B4DE8 /* Collection+FOXAdditions.swift in Sources */,
-				E7A66875D8F2C66506219CA6C91C20D4 /* FOXAdditions-dummy.m in Sources */,
-				6D3A18FBD9C78F35974DED67657392CE /* NSObject+FOXAdditions.swift in Sources */,
-				9DEEC87E98BAA6AB8E2FCE4F7FDC446E /* UIAlertController+FOXAdditions.swift in Sources */,
-				2D58F0C8F05B0B6CEC99CD6AC524A302 /* UIBezierPath+FOXAdditions.swift in Sources */,
-				F73675FDFBFB4FF0A394E7CE41E9BE4E /* UICollectionViewCell+FOXAdditions.swift in Sources */,
-				13AA7BDD82AA257588214E4AE4971FAF /* UIStackView+FOXAdditions.swift in Sources */,
-				7F0AA68359B5F5CDA5184F946A97153D /* UITableViewCell+FOXAdditions.swift in Sources */,
-				F4E58D4FF0FDF78F21AA37EC9002F36A /* UIView+FOXAdditions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5CAA81EFD6600FE8306A6C89B5677A5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CC203B922328928827421DB8A112CCD5 /* Pods-FOXAdditions_Example-dummy.m in Sources */,
+				4E1A2B8316EA8F7C3A459BD3EC9D876C /* Pods-FOXAdditions_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		77665354A41919D94CFCC0587C6B4121 /* PBXTargetDependency */ = {
+		0699859B074CF63A70AB8AE0F3D156A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FOXAdditions;
-			target = 1248F1D8477A74326FF84353D6D046D3 /* FOXAdditions */;
-			targetProxy = 3966C2768BEB3E708ED107637715846F /* PBXContainerItemProxy */;
+			name = KFXBaseViews;
+			targetProxy = 1492EF201F536C330943490B1DA71AD8 /* PBXContainerItemProxy */;
+		};
+		0A1FDDF36CEC6CF71C284EBD091DB5B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZAppearance;
+			targetProxy = 0C7355A811B1DFE5CB7A0A71202FBDAA /* PBXContainerItemProxy */;
+		};
+		15A6E0768AC9260D5BD6DC5AB77C7473 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVActivityIndicatorView;
+			targetProxy = 1D0B1C34126346411D37828747342027 /* PBXContainerItemProxy */;
+		};
+		1B811143CE7436258C0E95C23B6E1A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXTheming;
+			targetProxy = 5CD8976CD1EE3CB95678A81FE83DDA36 /* PBXContainerItemProxy */;
+		};
+		26FE93F68DD2827883779B7136BE65EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXViews;
+			targetProxy = 5D3980C2D8A8979B5BFC0FCA4F20D4B7 /* PBXContainerItemProxy */;
+		};
+		2A3DE333D6E764807E0D081B10FE11BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXAbstracts;
+			targetProxy = A07D5BEEADFE19A8F64F5B241D637F5F /* PBXContainerItemProxy */;
+		};
+		3B8EA5012E9430A39A7213B3B4220BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontBlaster;
+			targetProxy = B5E430B504D741F15A1AE9F56EDABCD5 /* PBXContainerItemProxy */;
+		};
+		6B6F4F15584D3061D26C46B3FD636553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXTextEditorVC;
+			targetProxy = F933D8A42ABBF30EC3DE574817D9A0BA /* PBXContainerItemProxy */;
+		};
+		6CBF6EFC802542D0BEFA41DD6727FF26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXCardView;
+			targetProxy = 340CA5A862218B6F913CA46746CE1CFC /* PBXContainerItemProxy */;
+		};
+		A127F5F9F679765C7699017B0790B643 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXCore;
+			targetProxy = FDA7FB4C7E1F48508E384B1FB7CCD9F3 /* PBXContainerItemProxy */;
+		};
+		AB6FFE8B6637B63722DB82319BBA23CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXBaseViewControllers;
+			targetProxy = EA5E57930B0CFBDF73C693EFAA9E5753 /* PBXContainerItemProxy */;
+		};
+		AE4DB1A198FEB893289F19B842998819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MZFormSheetPresentationController;
+			targetProxy = 613D0838B3ACD901C988864AA3AA786D /* PBXContainerItemProxy */;
+		};
+		C5D80713C5D653AAEA267E459F5ADCF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			targetProxy = 072CE4A9081E501A326ABD3248E0E926 /* PBXContainerItemProxy */;
 		};
 		DA326EA8655ED46C6E7D366D19D0BA7B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FOXAdditions_Example";
 			target = C51679B6997E88420A3C942BD5379FE5 /* Pods-FOXAdditions_Example */;
 			targetProxy = D9AD4BC363E46CE1A67140C21FADA95D /* PBXContainerItemProxy */;
+		};
+		DB2E1959DCA79909488E9D3DD7568455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXAdditions;
+			targetProxy = 492199DCB2C4466703A36F6D9F7BFEE2 /* PBXContainerItemProxy */;
+		};
+		E3608ECA827F2D0E0E3842FEDFD09D75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FOXAdditions;
+			targetProxy = 0294067709D73F708DD5136AF005A9D0 /* PBXContainerItemProxy */;
+		};
+		F1F1F6F100A14A5A317C2FF88030B84F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXBaseCells;
+			targetProxy = C061177514433E276D1AE3F661F71D32 /* PBXContainerItemProxy */;
+		};
+		FB553F3559E3FA4689828C8B361E105B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KFXUtilities;
+			targetProxy = B534010CF0D0718D2B993200D1EA8272 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -499,9 +662,9 @@
 			};
 			name = Release;
 		};
-		278907E3B1BC8BBC3103FB57BD091F81 /* Release */ = {
+		4504EE266FDE3EE96A8152C008B666B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10E0F78764BEF07F36A305C27FFFF68B /* Pods-FOXAdditions_Example.release.xcconfig */;
+			baseConfigurationReference = D1A8DFF1A95C8315448F537E36E7B46A /* Pods-FOXAdditions_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -529,45 +692,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		2CF38CCDAF94968FF886310D5522F807 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 403483C652F83D9B41B601EF855EE0A9 /* FOXAdditions.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FOXAdditions/FOXAdditions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FOXAdditions/FOXAdditions-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FOXAdditions/FOXAdditions.modulemap";
-				PRODUCT_MODULE_NAME = FOXAdditions;
-				PRODUCT_NAME = FOXAdditions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		5BA0EF096CDE23D7C6FBF2863803426B /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -704,9 +832,9 @@
 			};
 			name = Debug;
 		};
-		DDE60C562EC8EEA9F16B881128F40519 /* Debug */ = {
+		F3914FB9D0B8C4DAE63A65BC8DBD1039 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1A8DFF1A95C8315448F537E36E7B46A /* Pods-FOXAdditions_Example.debug.xcconfig */;
+			baseConfigurationReference = 10E0F78764BEF07F36A305C27FFFF68B /* Pods-FOXAdditions_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -734,56 +862,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		F95B9AF95E6C873D733A9CD013ABEA64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 403483C652F83D9B41B601EF855EE0A9 /* FOXAdditions.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FOXAdditions/FOXAdditions-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FOXAdditions/FOXAdditions-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FOXAdditions/FOXAdditions.modulemap";
-				PRODUCT_MODULE_NAME = FOXAdditions;
-				PRODUCT_NAME = FOXAdditions;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CC32D476A64F7AF0C1775FCC63798A5 /* Build configuration list for PBXNativeTarget "FOXAdditions" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F95B9AF95E6C873D733A9CD013ABEA64 /* Debug */,
-				2CF38CCDAF94968FF886310D5522F807 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		247A1922FEAD57C96D99A80F924ADDF4 /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -802,11 +889,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5BAB762780C1CDF084B93544D9F0298 /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Example" */ = {
+		9D1BC8FAEACBFA8F2C4E211FB0917CA7 /* Build configuration list for PBXNativeTarget "Pods-FOXAdditions_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDE60C562EC8EEA9F16B881128F40519 /* Debug */,
-				278907E3B1BC8BBC3103FB57BD091F81 /* Release */,
+				4504EE266FDE3EE96A8152C008B666B1 /* Debug */,
+				F3914FB9D0B8C4DAE63A65BC8DBD1039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

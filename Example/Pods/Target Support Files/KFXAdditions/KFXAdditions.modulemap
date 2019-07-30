@@ -1,0 +1,6 @@
+framework module KFXAdditions {
+  umbrella header "KFXAdditions-umbrella.h"
+
+  export *
+  module * { export * }
+}

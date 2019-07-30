@@ -162,9 +162,41 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FOXAdditions/FOXAdditions.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FontBlaster/FontBlaster.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXAbstracts/KFXAbstracts.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXAdditions/KFXAdditions.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXBaseCells/KFXBaseCells.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXBaseViewControllers/KFXBaseViewControllers.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXBaseViews/KFXBaseViews.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXCardView/KFXCardView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXCore/KFXCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXTextEditorVC/KFXTextEditorVC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXTheming/KFXTheming.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXUtilities/KFXUtilities.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXViews/KFXViews.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MZAppearance/MZAppearance.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MZFormSheetPresentationController/MZFormSheetPresentationController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FOXAdditions/FOXAdditions.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FontBlaster/FontBlaster.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXAbstracts/KFXAbstracts.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXAdditions/KFXAdditions.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXBaseCells/KFXBaseCells.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXBaseViewControllers/KFXBaseViewControllers.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXBaseViews/KFXBaseViews.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXCardView/KFXCardView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXCore/KFXCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXTextEditorVC/KFXTextEditorVC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXTheming/KFXTheming.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXUtilities/KFXUtilities.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/KFXViews/KFXViews.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MZAppearance/MZAppearance.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MZFormSheetPresentationController/MZFormSheetPresentationController.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

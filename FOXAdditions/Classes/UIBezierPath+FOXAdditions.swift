@@ -43,6 +43,19 @@ public extension UIBezierPath {
         headPath.close()
         return headPath
     }
+
+    class func fox_triangle(withCentreBasePoint centreBase:CGPoint, controlPoint:CGPoint, size:CGSize) -> UIBezierPath {
+        
+        let angle = atan2(centreBase.y - controlPoint.y, centreBase.x - controlPoint.x)
+        let path = UIBezierPath()
+        path.move(to: centreBase)
+        path.addLine(to: fox_calculatePoint(fromPoint: centreBase, angle: angle + CGFloat.pi/2, size: size))
+        path.addLine(to: fox_calculatePoint(fromPoint: centreBase, angle: angle, size: size))
+        path.addLine(to: fox_calculatePoint(fromPoint: centreBase, angle: angle - CGFloat.pi/2, size: size))
+        path.lineCapStyle = .round
+        path.close()
+        return path
+    }
     
     class func fox_controlPointsForCurvedLine(withHead head:CGPoint, tail:CGPoint, bendFactor:CGFloat) -> (headCP:CGPoint, tailCP:CGPoint) {
      
@@ -61,7 +74,14 @@ public extension UIBezierPath {
     }
 
     class func fox_calculatePoint(fromPoint point:CGPoint, angle:CGFloat, size:CGFloat) -> CGPoint {
-        return CGPoint(x: point.x + CGFloat(cosf(Float(angle))) * size, y: point.y + CGFloat(sinf(Float(angle))) * size)
+                return CGPoint(x: point.x + CGFloat(cosf(Float(angle))) * size, y: point.y + CGFloat(sinf(Float(angle))) * size)
     }
+
+    class func fox_calculatePoint(fromPoint point:CGPoint, angle:CGFloat, size:CGSize) -> CGPoint {
+        let point = CGPoint(x: point.x + CGFloat(cosf(Float(angle))) * size.width, y: point.y + CGFloat(sinf(Float(angle))) * size.height)
+        print("point: \(point)")
+        return point
+    }
+
 
 }
