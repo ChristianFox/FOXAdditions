@@ -1,4 +1,6 @@
 
+### 0.6.0 | Adds Optional+FOXAdditions
+
 ### 0.5.1 | Messed up previous commit & push
 
 ### 0.5.0 | Adds Triangle path to UIBezierPath. Adds removeObject to Array

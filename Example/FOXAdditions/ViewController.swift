@@ -60,6 +60,17 @@ class ViewController: KFXBaseViewController {
     //------------------------------------
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let opt1:String? = nil
+        let opt2:String = opt1.orDefault("some string")
+        print("Option2 = \(opt2)")
+        print("Option = \(opt1.orDefault("is nil"))")
+        
+        let aColour:UIColor? = nil
+        print("colour = \(aColour.orOptionals([nil,nil,.green,nil], defaultValue:.blue))")
+        
+        let aString:String? = nil
+        print("string = \(aString.orOptionals([nil,nil,nil], defaultValue: "This is the default"))")
     }
     
     
