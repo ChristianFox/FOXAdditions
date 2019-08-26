@@ -6,7 +6,7 @@ public extension Optional {
     /*
      A nil-coalescing alternative for Swift from https://samhuri.net
     */
-    public func orDefault(_ defaultValue: Wrapped) -> Wrapped {
+    func orDefault(_ defaultValue: Wrapped) -> Wrapped {
         switch self {
             case .none:
                 return defaultValue
@@ -15,7 +15,7 @@ public extension Optional {
         }
     }
 
-    public func orOptionals(_ optionals:[Wrapped?]? = nil, defaultValue: Wrapped) -> Wrapped {
+    func orOptionals(_ optionals:[Wrapped?]? = nil, defaultValue: Wrapped) -> Wrapped {
         switch self {
         case .none:
             if let optionals = optionals {

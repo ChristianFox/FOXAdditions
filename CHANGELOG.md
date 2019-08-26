@@ -1,4 +1,6 @@
 
+### 0.6.1 | Removes a couple of public modifiers
+
 ### 0.6.0 | Adds Optional+FOXAdditions
 
 ### 0.5.1 | Messed up previous commit & push
