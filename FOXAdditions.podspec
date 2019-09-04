@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FOXAdditions'
-  s.version          = '0.6.1'
+  s.version          = '0.7.0'
   s.summary          = 'FOXAdditions blah.'
   s.description      = <<-DESC
 FOXAdditions blah blah.
@@ -15,12 +15,5 @@ FOXAdditions blah blah.
   s.ios.deployment_target = '11.0'
   s.swift_version = '4.2'
   s.source_files = 'FOXAdditions/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FOXAdditions' => ['FOXAdditions/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

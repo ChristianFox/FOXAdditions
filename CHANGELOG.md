@@ -1,4 +1,6 @@
 
+### 0.7.0 | Adds documenting comments and renames some methods
+
 ### 0.6.1 | Removes a couple of public modifiers
 
 ### 0.6.0 | Adds Optional+FOXAdditions
