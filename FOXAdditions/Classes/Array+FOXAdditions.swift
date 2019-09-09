@@ -51,6 +51,16 @@ public extension Array {
 		return nil
 	}
 	
+	@available(*, deprecated, renamed: "fox_indexOf(object:)")
+	func fox_indexOf<T : Equatable>(x:T) -> Int? {
+		for i in 0..<self.count {
+			if self[i] as! T == x {
+				return i
+			}
+		}
+		return nil
+	}
+	
 	/**
 	Returns the indexes of all instances of the element in the array.
 	
