@@ -1,4 +1,6 @@
 
+### 0.8.0 | Adds CGRect+FOXAdditions
+
 ### 0.7.1 | Adds fox_indexOf(x:) back as a deprecated method 
 
 ### 0.7.0 | Adds documenting comments and renames some methods
