@@ -13,7 +13,7 @@ public extension UIStackView {
         for subview in arrangedSubviews.reversed() {
             
             removeArrangedSubview(subview)
-            subview.removeFromSuperview()
+           subview.removeFromSuperview()
         }
     }
 }

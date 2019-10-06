@@ -12,6 +12,8 @@
 		30BBEAAE1F703606A7873CE183F015CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A663D6628F6AA251153C393634C24AA1 /* Foundation.framework */; };
 		3DA0872BAAA61534F809A99927F5E926 /* NSObject+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E84B8AA43B913363933BFCF4F195EA /* NSObject+FOXAdditions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5B08048C2313E6C200F73946 /* Optional+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B08048B2313E6C200F73946 /* Optional+FOXAdditions.swift */; };
+		5B7768B4239CF821009A086B /* Double+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7768B3239CF821009A086B /* Double+FOXAdditions.swift */; };
+		5B7768B6239CF821009A086B /* Float+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7768B5239CF821009A086B /* Float+FOXAdditions.swift */; };
 		5BAA357223445F2000249E61 /* CGRect+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA357123445F2000249E61 /* CGRect+FOXAdditions.swift */; };
 		5D2B31DD2BEEF9B03C9A61626B5679D6 /* FOXAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06220158A11D2E70E76B536B88C14882 /* FOXAdditions-dummy.m */; };
 		5EEA2D8EAA2743FAAB7F33292362867F /* UIBezierPath+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46D31A963BCD69087234A565B264782 /* UIBezierPath+FOXAdditions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -32,6 +34,8 @@
 		444D9739049040D1EC3B027BA240B4D0 /* FOXAdditions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FOXAdditions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		45F36BBF2D22A50F1AA525031141715E /* FOXAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FOXAdditions-umbrella.h"; sourceTree = "<group>"; };
 		5B08048B2313E6C200F73946 /* Optional+FOXAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Optional+FOXAdditions.swift"; path = "FOXAdditions/Classes/Optional+FOXAdditions.swift"; sourceTree = "<group>"; };
+		5B7768B3239CF821009A086B /* Double+FOXAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Double+FOXAdditions.swift"; path = "FOXAdditions/Classes/Double+FOXAdditions.swift"; sourceTree = "<group>"; };
+		5B7768B5239CF821009A086B /* Float+FOXAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Float+FOXAdditions.swift"; path = "FOXAdditions/Classes/Float+FOXAdditions.swift"; sourceTree = "<group>"; };
 		5BAA357123445F2000249E61 /* CGRect+FOXAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CGRect+FOXAdditions.swift"; path = "FOXAdditions/Classes/CGRect+FOXAdditions.swift"; sourceTree = "<group>"; };
 		5FE8E6FF13E0467EECE3F188CDE663B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		61B7053C7E484B616F50AF580E29E5F6 /* UIAlertController+FOXAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertController+FOXAdditions.swift"; path = "FOXAdditions/Classes/UIAlertController+FOXAdditions.swift"; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 			children = (
 				B1B6CF55280C308F404ADB108284CC20 /* Array+FOXAdditions.swift */,
 				AE369C60A7E9010BEA6A458C96F27B36 /* Bundle+FOXAdditions.swift */,
+				5B7768B3239CF821009A086B /* Double+FOXAdditions.swift */,
+				5B7768B5239CF821009A086B /* Float+FOXAdditions.swift */,
 				C6E45AD083C269686E63046554D98B76 /* Collection+FOXAdditions.swift */,
 				F8E84B8AA43B913363933BFCF4F195EA /* NSObject+FOXAdditions.swift */,
 				61B7053C7E484B616F50AF580E29E5F6 /* UIAlertController+FOXAdditions.swift */,
@@ -222,10 +228,12 @@
 				ED948DA6C1D2D84ED680D5C99D3EF851 /* UIAlertController+FOXAdditions.swift in Sources */,
 				5EEA2D8EAA2743FAAB7F33292362867F /* UIBezierPath+FOXAdditions.swift in Sources */,
 				5B08048C2313E6C200F73946 /* Optional+FOXAdditions.swift in Sources */,
+				5B7768B4239CF821009A086B /* Double+FOXAdditions.swift in Sources */,
 				5BAA357223445F2000249E61 /* CGRect+FOXAdditions.swift in Sources */,
 				2D5CF61BA22E723790C0BDB83F670D61 /* UICollectionViewCell+FOXAdditions.swift in Sources */,
 				D0768829E4FFE81EB580120BEA8C64EE /* UIStackView+FOXAdditions.swift in Sources */,
 				CE8B2E78BFCBF6FCBE0F3B7AB1B43C15 /* UITableViewCell+FOXAdditions.swift in Sources */,
+				5B7768B6239CF821009A086B /* Float+FOXAdditions.swift in Sources */,
 				BBD5160B5E08A008C5F7E9D2FFA2768F /* UIView+FOXAdditions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

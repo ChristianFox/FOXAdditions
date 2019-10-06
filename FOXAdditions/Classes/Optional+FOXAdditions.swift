@@ -16,6 +16,21 @@ public extension Optional {
                 return value
         }
     }
+    
+    /**
+     A nil-coalescing alternative for Swift which can return an optional
+    
+    Returns self if is .some or backupValue if .none
+    */
+    func orBackup(_ backupValue: Wrapped?) -> Wrapped? {
+        switch self {
+            case .none:
+                return backupValue
+            case let .some(value):
+                return value
+        }
+    }
+
 
 	/**
 	A nil-coalescing alternative for Swift.
@@ -37,5 +52,4 @@ public extension Optional {
             return value
         }
     }
-
 }
