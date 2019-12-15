@@ -7,7 +7,7 @@ public extension UIView {
 	/**
 	Returns the UINib for this class using the className as the nibName and looking in the bundle for the class
 	*/
-    class func fox_nib() -> UINib {
+     class func fox_nib() -> UINib {
         
         let nib = UINib(nibName: self.fox_className, bundle: Bundle(for: self))
         return nib

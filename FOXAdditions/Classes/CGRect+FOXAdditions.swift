@@ -2,7 +2,7 @@
 
 import CoreGraphics
 
-extension CGRect {
+public extension CGRect {
 	
 	var fox_centre:CGPoint {
 		return CGPoint(x: midX, y: midY)

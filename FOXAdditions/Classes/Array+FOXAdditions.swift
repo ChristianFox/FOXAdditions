@@ -50,18 +50,8 @@ public extension Array {
 		}
 		return nil
 	}
-	
-	@available(*, deprecated, renamed: "fox_indexOf(object:)")
-	func fox_indexOf<T : Equatable>(x:T) -> Int? {
-		for i in 0..<self.count {
-			if self[i] as! T == x {
-				return i
-			}
-		}
-		return nil
-	}
-	
-	/**
+
+    /**
 	Returns the indexes of all instances of the element in the array.
 	
 	- Parameter object: The object to look for
@@ -92,11 +82,6 @@ public extension Array {
 			remove(at: index)
 			lastIndex = index
 		}
-	}
-	
-	@available(*, deprecated, renamed: "fox_remove(at:)")
-	mutating func remove(at indexes: [Int]) {
-		return fox_remove(at: indexes)
 	}
 }
 
@@ -137,5 +122,24 @@ extension Array where Element: Equatable {
 	mutating func remove(object: Element) {
 		fox_removeFirst(object: object)
 	}
+}
+
+public extension Array where Element: Hashable {
+    
+    /** The most common elements contained in the receiver */
+     var fox_modes: [Element] {
+        /* https://stackoverflow.com/a/38417197 */
+        let reduced:[Element: Int] = self.reduce([Element: Int]()) {
+            var counts = $0
+            counts[$1] = ($0[$1] ?? 0) + 1
+            return counts
+        }
+        guard let max:Int = reduced.values.max() else {
+            return [Element]()
+        }
+        let modes:[Element:Int] = reduced.filter{ $0.value == max }
+        return modes.map{ $0.key }.sorted(by: { return $0.hashValue > $1.hashValue })
+    }
+    
 }
 

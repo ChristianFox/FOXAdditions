@@ -1,4 +1,7 @@
 
+### 0.9.0 | Methods for Averages 
+- Adds additions to BinaryInteger, BinaryFloatingPoint and Array for calculating averages
+
 ### 0.8.0 | Adds CGRect+FOXAdditions
 
 ### 0.7.1 | Adds fox_indexOf(x:) back as a deprecated method 

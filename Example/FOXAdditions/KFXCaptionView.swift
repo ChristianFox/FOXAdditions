@@ -77,8 +77,8 @@ class KFXCaptionView: KFXBaseView {
         self.layer.addSublayer(layer)
 
     }
-    
     override func didMoveToSuperview() {
+    
         super.didMoveToSuperview()
         
 //        let converted = sourceView.superview?.convert(self.sourceRect, to: self.superview)
@@ -117,6 +117,8 @@ class KFXCaptionView: KFXBaseView {
     
     internal override func configureSubviewsLayout(){
         super.configureSubviewsLayout()
+        
+        
         
     }
     

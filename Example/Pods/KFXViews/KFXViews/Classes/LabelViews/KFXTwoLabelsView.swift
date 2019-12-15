@@ -157,7 +157,7 @@ public class KFXTwoLabelsView : KFXBaseView {
             detail.snp.makeConstraints { (make) in
                 make.leading.greaterThanOrEqualToSuperview().offset(20)
                 make.centerY.equalToSuperview()
-                make.top.equalToSuperview
+                make.top.equalToSuperview()
                 make.bottom.equalToSuperview()
                 
             }

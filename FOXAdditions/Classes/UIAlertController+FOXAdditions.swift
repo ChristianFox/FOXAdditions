@@ -13,7 +13,7 @@ public extension UIAlertController {
     }
     
     /**
-     * Create an UIAlertController with the given message, the title 'Error' and a single button "OK"
+     * Create an UIAlertController with the given message, the title `Error` and a single button "OK"
      */
     convenience init(errorAlert message:String?) {
         
