@@ -1,4 +1,6 @@
 
+### 1.0.1 | Update podspec and adds some documentation
+
 ### 1.0.0 | Moved to github and public cocoapod trunk
 
 ### 0.9.0 | Methods for Averages 
