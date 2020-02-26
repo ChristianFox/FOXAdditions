@@ -1,6 +1,0 @@
-framework module KFXTextEditorVC {
-  umbrella header "KFXTextEditorVC-umbrella.h"
-
-  export *
-  module * { export * }
-}

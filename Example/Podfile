@@ -8,15 +8,6 @@ install! 'cocoapods',
 target 'FOXAdditions_Example' do
   pod 'FOXAdditions', :path => '../'
   
-  
-  ## Sources
-  ### If using private pods
-  source 'https://kfxtech@bitbucket.org/kfx_pods/kfxprivatespecs.git'
-  pod 'KFXBaseViews'
-  pod 'KFXBaseViewControllers'
-  
-  ### If using from trunk
-  source 'https://cdn.cocoapods.org/'
   pod 'SnapKit'
 
 

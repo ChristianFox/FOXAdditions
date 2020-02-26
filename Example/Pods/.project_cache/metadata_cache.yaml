@@ -4,7 +4,7 @@ FontBlaster:
   UUID: E8D6DB5741E4A20C21FBD678CFB4C298
 FOXAdditions:
   LABEL: FOXAdditions
-  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/FOXAdditions.xcodeproj"
+  PROJECT_PATH: FOXAdditions.xcodeproj
   UUID: 5E8AECA9F71601CFA2DD299F100E9AE6
 KFXAbstracts:
   LABEL: KFXAbstracts
@@ -64,13 +64,13 @@ NVActivityIndicatorView:
   UUID: 6156770F92C573ACA75CA35382CE68F8
 Pods-FOXAdditions_Example:
   LABEL: Pods-FOXAdditions_Example
-  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/Pods.xcodeproj"
+  PROJECT_PATH: Pods.xcodeproj
   UUID: C51679B6997E88420A3C942BD5379FE5
 Pods-FOXAdditions_Tests:
   LABEL: Pods-FOXAdditions_Tests
-  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/Pods.xcodeproj"
+  PROJECT_PATH: Pods.xcodeproj
   UUID: D6A19982623E7094FF33081CDE32B5CF
 SnapKit:
   LABEL: SnapKit
-  PROJECT_PATH: "/Volumes/Storage/_Dev - Projects/KFX Projects - Libraries/Pods - FOX - bb/FOXAdditions/Example/Pods/SnapKit.xcodeproj"
+  PROJECT_PATH: SnapKit.xcodeproj
   UUID: 6913FCF4B90C224E55FE5C821AFB90D2

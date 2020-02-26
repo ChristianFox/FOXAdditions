@@ -8,13 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2BF24E62071F876572914630 /* Pods_FOXAdditions_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E8EC20BB282B914B1B05F7 /* Pods_FOXAdditions_Example.framework */; };
-		5B2D86F122EFC23100CB4D2D /* KFXTriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2D86F022EFC23100CB4D2D /* KFXTriangleView.swift */; };
 		5B58071923A69B57005BAC66 /* BinaryIntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58071823A69B57005BAC66 /* BinaryIntegerTests.swift */; };
 		5B9F0643239D0C97002E90A6 /* BinaryFloatingPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F0642239D0C97002E90A6 /* BinaryFloatingPointTests.swift */; };
 		5B9F0645239D0E96002E90A6 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F0644239D0E96002E90A6 /* ArrayTests.swift */; };
 		5BE502A822B3F51700A195A7 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BE502A722B3F51700A195A7 /* CHANGELOG.md */; };
-		5BFF138922EFF07D00B81299 /* KFXCaptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF138822EFF07D00B81299 /* KFXCaptionView.swift */; };
-		5BFF138B22EFF2BD00B81299 /* KFXTriangleShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFF138A22EFF2BD00B81299 /* KFXTriangleShapeLayer.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -38,13 +35,10 @@
 		10B36DF6133C8A5FD906D9DC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		425B668E061F283621285B17 /* Pods-FOXAdditions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FOXAdditions_Tests.release.xcconfig"; path = "Target Support Files/Pods-FOXAdditions_Tests/Pods-FOXAdditions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5B19EE3522BCA7C700DCABFA /* NOTES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NOTES.md; sourceTree = "<group>"; };
-		5B2D86F022EFC23100CB4D2D /* KFXTriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFXTriangleView.swift; sourceTree = "<group>"; };
 		5B58071823A69B57005BAC66 /* BinaryIntegerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryIntegerTests.swift; sourceTree = "<group>"; };
 		5B9F0642239D0C97002E90A6 /* BinaryFloatingPointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryFloatingPointTests.swift; sourceTree = "<group>"; };
 		5B9F0644239D0E96002E90A6 /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
 		5BE502A722B3F51700A195A7 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
-		5BFF138822EFF07D00B81299 /* KFXCaptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFXCaptionView.swift; sourceTree = "<group>"; };
-		5BFF138A22EFF2BD00B81299 /* KFXTriangleShapeLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KFXTriangleShapeLayer.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FOXAdditions_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOXAdditions_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -121,9 +115,6 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				5B2D86F022EFC23100CB4D2D /* KFXTriangleView.swift */,
-				5BFF138822EFF07D00B81299 /* KFXCaptionView.swift */,
-				5BFF138A22EFF2BD00B81299 /* KFXTriangleShapeLayer.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -338,41 +329,11 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FOXAdditions_Example/Pods-FOXAdditions_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FOXAdditions/FOXAdditions.framework",
-				"${BUILT_PRODUCTS_DIR}/FontBlaster/FontBlaster.framework",
-				"${BUILT_PRODUCTS_DIR}/KFXAbstracts/KFXAbstracts.framework",
-				"${BUILT_PRODUCTS_DIR}/KFXAdditions/KFXAdditions.framework",
-				"${BUILT_PRODUCTS_DIR}/KFXBaseCells/KFXBaseCells.framework",
-				"${BUILT_PRODUCTS_DIR}/KFXBaseViewControllers/KFXBaseViewControllers.framework",
-				"${BUILT_PRODUCTS_DIR}/KFXBaseViews/KFXBaseViews.framework",
-				"${BUILT_PRODUCTS_DIR}/KFXCardView/KFXCardView.framework",
-				"${BUILT_PRODUCTS_DIR}/KFXCore/KFXCore.framework",
-				"${BUILT_PRODUCTS_DIR}/KFXTextEditorVC/KFXTextEditorVC.framework",
-				"${BUILT_PRODUCTS_DIR}/KFXTheming/KFXTheming.framework",
-				"${BUILT_PRODUCTS_DIR}/KFXUtilities/KFXUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/KFXViews/KFXViews.framework",
-				"${BUILT_PRODUCTS_DIR}/MZAppearance/MZAppearance.framework",
-				"${BUILT_PRODUCTS_DIR}/MZFormSheetPresentationController/MZFormSheetPresentationController.framework",
-				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FOXAdditions.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontBlaster.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFXAbstracts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFXAdditions.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFXBaseCells.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFXBaseViewControllers.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFXBaseViews.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFXCardView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFXCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFXTextEditorVC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFXTheming.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFXUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KFXViews.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZAppearance.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZFormSheetPresentationController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,9 +348,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B2D86F122EFC23100CB4D2D /* KFXTriangleView.swift in Sources */,
-				5BFF138922EFF07D00B81299 /* KFXCaptionView.swift in Sources */,
-				5BFF138B22EFF2BD00B81299 /* KFXTriangleShapeLayer.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

@@ -1,6 +1,0 @@
-framework module KFXBaseViewControllers {
-  umbrella header "KFXBaseViewControllers-umbrella.h"
-
-  export *
-  module * { export * }
-}

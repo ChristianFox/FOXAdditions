@@ -1,4 +1,6 @@
 
+### 1.1.1 | Removes a bunch of unneeded code and pods
+
 ### 1.1.0 | Adds Codable+FOXAdditions with methods for converting to and from a dictionary
 
 ### 1.0.1 | Update podspec and adds some documentation

@@ -1,6 +1,0 @@
-framework module KFXCardView {
-  umbrella header "KFXCardView-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module KFXTheming {
-  umbrella header "KFXTheming-umbrella.h"
-
-  export *
-  module * { export * }
-}

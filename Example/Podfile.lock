@@ -1,110 +1,23 @@
 PODS:
-  - FontBlaster (5.0.0)
-  - FOXAdditions (0.4.0)
-  - KFXAbstracts (1.1.0):
-    - KFXAdditions
-  - KFXAdditions (2.5.0)
-  - KFXBaseCells (0.2.3):
-    - KFXAbstracts
-    - KFXCardView
-    - KFXTheming
-    - SnapKit (~> 4.2)
-  - KFXBaseViewControllers (0.9.3):
-    - KFXAbstracts
-    - KFXAdditions
-    - KFXBaseCells
-    - KFXBaseViews
-    - KFXCardView
-    - KFXCore
-    - KFXTextEditorVC
-    - KFXTheming
-    - KFXUtilities
-    - MZFormSheetPresentationController
-    - NVActivityIndicatorView (= 4.6.1)
-    - SnapKit (~> 4.2)
-  - KFXBaseViews (0.6.1):
-    - KFXAbstracts
-    - KFXCardView
-    - KFXTheming
-    - SnapKit (~> 4.2)
-  - KFXCardView (0.6.0):
-    - KFXAdditions
-    - SnapKit (= 4.2)
-  - KFXCore (2.1.0)
-  - KFXTextEditorVC (0.2.0):
-    - KFXTheming
-    - KFXViews
-    - SnapKit (~> 4.2)
-  - KFXTheming (0.6.2):
-    - FontBlaster
-    - FOXAdditions
-    - KFXAdditions
-    - SnapKit (~> 4.2)
-  - KFXUtilities (2.3.0):
-    - KFXCore
-  - KFXViews (0.8.2):
-    - KFXBaseViews
-    - KFXCardView
-    - KFXCore
-    - KFXTheming
-    - SnapKit (~> 4.2.0)
-  - MZAppearance (1.1.6)
-  - MZFormSheetPresentationController (2.4.3):
-    - MZAppearance
-  - NVActivityIndicatorView (4.6.1):
-    - NVActivityIndicatorView/Presenter (= 4.6.1)
-  - NVActivityIndicatorView/Presenter (4.6.1)
-  - SnapKit (4.2.0)
+  - FOXAdditions (1.1.0)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - FOXAdditions (from `../`)
-  - KFXBaseViewControllers
-  - KFXBaseViews
   - SnapKit
 
 SPEC REPOS:
-  https://cdn.cocoapods.org/:
-    - FontBlaster
-    - KFXAdditions
-    - KFXCore
-    - KFXUtilities
-    - MZAppearance
-    - MZFormSheetPresentationController
-    - NVActivityIndicatorView
+  trunk:
     - SnapKit
-  "https://kfxtech@bitbucket.org/kfx_pods/kfxprivatespecs.git":
-    - KFXAbstracts
-    - KFXBaseCells
-    - KFXBaseViewControllers
-    - KFXBaseViews
-    - KFXCardView
-    - KFXTextEditorVC
-    - KFXTheming
-    - KFXViews
 
 EXTERNAL SOURCES:
   FOXAdditions:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FontBlaster: 04e16caf99e5e1133ce7ddcdfcd75c74498283e5
-  FOXAdditions: 037884ffba92321d224fae169fb558daf10d76c3
-  KFXAbstracts: 372249ead57adf768452004c1e0917a49236c659
-  KFXAdditions: 47fa55f4a402cfd93c643321fc30efe499b09163
-  KFXBaseCells: 9c42c67d2ff0d7d2e4c3e1da2524e11d7ff12231
-  KFXBaseViewControllers: c50b1c981a0cca4a52c68469b568ffc73e49c48d
-  KFXBaseViews: cac06a1d8c08076de5fd65b4eba7beee9d2b225f
-  KFXCardView: b85d1e9b92a8d2415b751425bee72d9283766ac0
-  KFXCore: 927542a10885ee7389aec49d1bd3b1e6a3920ecc
-  KFXTextEditorVC: 93063aa6aba7476f866403d8b64e1a25e92fc177
-  KFXTheming: 46e7ebab26baf6f755b1b5c7cfd495b44fea98d7
-  KFXUtilities: b8be6ecf7b8df43b32afea2f9ce6e970b28d84b1
-  KFXViews: a9915ae39cb8aa4d5a226a8e15bb106faebdf0da
-  MZAppearance: 0c06d3fa9cc55142f1da14bc8631fbe8fd6e19d5
-  MZFormSheetPresentationController: fbfdbad31884f16fac17fbe3c44c168306cc1095
-  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
-  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  FOXAdditions: e5c550727e318d2d60d55c43345ef47a6d1be9e2
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: d6fddea352cd93e94ca679285ea259c94a1da4ba
+PODFILE CHECKSUM: a875204a8ee3ff5d46247d4ef22ffd3c625d221e
 
-COCOAPODS: 1.7.2
+COCOAPODS: 1.8.4

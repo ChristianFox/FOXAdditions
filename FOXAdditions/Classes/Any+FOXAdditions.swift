@@ -1,7 +1,0 @@
-
-import Foundation
-
-extension Obj {
-    
-    
-}

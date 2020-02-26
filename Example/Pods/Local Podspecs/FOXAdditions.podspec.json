@@ -1,19 +1,19 @@
 {
   "name": "FOXAdditions",
-  "version": "0.4.0",
-  "summary": "FOXAdditions blah.",
-  "description": "FOXAdditions blah blah.",
-  "homepage": "https://kfxtech@bitbucket.org/kfx_pods/foxadditions.git",
+  "version": "1.1.0",
+  "summary": "Handy Swift Extensions.",
+  "description": "FOXAdditions - Some handy Swift extensions",
+  "homepage": "https://github.com/ChristianFox/FOXAdditions.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ChristianFox": "christianfox890@icloud.com"
+    "ChristianFox": "christianfox@kfxtech.com"
   },
   "source": {
-    "git": "https://kfxtech@bitbucket.org/kfx_pods/foxadditions.git",
-    "tag": "0.4.0"
+    "git": "https://github.com/ChristianFox/FOXAdditions.git",
+    "tag": "1.1.0"
   },
   "platforms": {
     "ios": "11.0"
