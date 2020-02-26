@@ -12,8 +12,11 @@
 		30BBEAAE1F703606A7873CE183F015CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A663D6628F6AA251153C393634C24AA1 /* Foundation.framework */; };
 		3DA0872BAAA61534F809A99927F5E926 /* NSObject+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E84B8AA43B913363933BFCF4F195EA /* NSObject+FOXAdditions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5B08048C2313E6C200F73946 /* Optional+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B08048B2313E6C200F73946 /* Optional+FOXAdditions.swift */; };
+		5B17CCDA24066E1300BA5179 /* Codable+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B17CCD924066E1300BA5179 /* Codable+FOXAdditions.swift */; };
 		5B424FAB23A6AC3500E7EB9F /* Bundle+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B424FAA23A6AC3500E7EB9F /* Bundle+FOXAdditions.swift */; };
 		5B58071723A69A45005BAC66 /* BinaryInteger+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58071623A69A45005BAC66 /* BinaryInteger+FOXAdditions.swift */; };
+		5B6D2D0123BCD61D00987ADE /* Any+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D2D0023BCD61D00987ADE /* Any+FOXAdditions.swift */; };
+		5B6D2D0323BCDB3B00987ADE /* String+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6D2D0223BCDB3B00987ADE /* String+FOXAdditions.swift */; };
 		5B9F0641239D0C20002E90A6 /* BinaryFloatingPoint+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9F0640239D0C20002E90A6 /* BinaryFloatingPoint+FOXAdditions.swift */; };
 		5BAA357223445F2000249E61 /* CGRect+FOXAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA357123445F2000249E61 /* CGRect+FOXAdditions.swift */; };
 		5D2B31DD2BEEF9B03C9A61626B5679D6 /* FOXAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06220158A11D2E70E76B536B88C14882 /* FOXAdditions-dummy.m */; };
@@ -34,8 +37,11 @@
 		444D9739049040D1EC3B027BA240B4D0 /* FOXAdditions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FOXAdditions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		45F36BBF2D22A50F1AA525031141715E /* FOXAdditions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FOXAdditions-umbrella.h"; sourceTree = "<group>"; };
 		5B08048B2313E6C200F73946 /* Optional+FOXAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Optional+FOXAdditions.swift"; path = "FOXAdditions/Classes/Optional+FOXAdditions.swift"; sourceTree = "<group>"; };
+		5B17CCD924066E1300BA5179 /* Codable+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+FOXAdditions.swift"; sourceTree = "<group>"; };
 		5B424FAA23A6AC3500E7EB9F /* Bundle+FOXAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bundle+FOXAdditions.swift"; path = "FOXAdditions/Classes/Bundle+FOXAdditions.swift"; sourceTree = "<group>"; };
 		5B58071623A69A45005BAC66 /* BinaryInteger+FOXAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BinaryInteger+FOXAdditions.swift"; path = "FOXAdditions/Classes/BinaryInteger+FOXAdditions.swift"; sourceTree = "<group>"; };
+		5B6D2D0023BCD61D00987ADE /* Any+FOXAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Any+FOXAdditions.swift"; path = "FOXAdditions/Classes/Any+FOXAdditions.swift"; sourceTree = "<group>"; };
+		5B6D2D0223BCDB3B00987ADE /* String+FOXAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+FOXAdditions.swift"; path = "FOXAdditions/Classes/String+FOXAdditions.swift"; sourceTree = "<group>"; };
 		5B9F0640239D0C20002E90A6 /* BinaryFloatingPoint+FOXAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BinaryFloatingPoint+FOXAdditions.swift"; path = "FOXAdditions/Classes/BinaryFloatingPoint+FOXAdditions.swift"; sourceTree = "<group>"; };
 		5BAA357123445F2000249E61 /* CGRect+FOXAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CGRect+FOXAdditions.swift"; path = "FOXAdditions/Classes/CGRect+FOXAdditions.swift"; sourceTree = "<group>"; };
 		5FE8E6FF13E0467EECE3F188CDE663B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -119,7 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				B1B6CF55280C308F404ADB108284CC20 /* Array+FOXAdditions.swift */,
+				5B17CCD924066E1300BA5179 /* Codable+FOXAdditions.swift */,
 				5B9F0640239D0C20002E90A6 /* BinaryFloatingPoint+FOXAdditions.swift */,
+				5B6D2D0023BCD61D00987ADE /* Any+FOXAdditions.swift */,
 				5B58071623A69A45005BAC66 /* BinaryInteger+FOXAdditions.swift */,
 				5B424FAA23A6AC3500E7EB9F /* Bundle+FOXAdditions.swift */,
 				C6E45AD083C269686E63046554D98B76 /* Collection+FOXAdditions.swift */,
@@ -132,6 +140,7 @@
 				A7084258E150A5B09FBE70C0D50DB7E1 /* UIView+FOXAdditions.swift */,
 				5B08048B2313E6C200F73946 /* Optional+FOXAdditions.swift */,
 				5BAA357123445F2000249E61 /* CGRect+FOXAdditions.swift */,
+				5B6D2D0223BCDB3B00987ADE /* String+FOXAdditions.swift */,
 				803193BC38E1D05AFA9CD8B51C1C1B02 /* Pod */,
 				62F33599DA731C94E7F3D9ADAFC5B180 /* Support Files */,
 			);
@@ -220,14 +229,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B6D2D0123BCD61D00987ADE /* Any+FOXAdditions.swift in Sources */,
 				0581993550725E234FDD2BDA277769CE /* Array+FOXAdditions.swift in Sources */,
 				70354C57A9A37F3D78D16964556DE698 /* Collection+FOXAdditions.swift in Sources */,
+				5B6D2D0323BCDB3B00987ADE /* String+FOXAdditions.swift in Sources */,
 				5D2B31DD2BEEF9B03C9A61626B5679D6 /* FOXAdditions-dummy.m in Sources */,
 				3DA0872BAAA61534F809A99927F5E926 /* NSObject+FOXAdditions.swift in Sources */,
 				ED948DA6C1D2D84ED680D5C99D3EF851 /* UIAlertController+FOXAdditions.swift in Sources */,
 				5EEA2D8EAA2743FAAB7F33292362867F /* UIBezierPath+FOXAdditions.swift in Sources */,
 				5B08048C2313E6C200F73946 /* Optional+FOXAdditions.swift in Sources */,
 				5BAA357223445F2000249E61 /* CGRect+FOXAdditions.swift in Sources */,
+				5B17CCDA24066E1300BA5179 /* Codable+FOXAdditions.swift in Sources */,
 				2D5CF61BA22E723790C0BDB83F670D61 /* UICollectionViewCell+FOXAdditions.swift in Sources */,
 				5B424FAB23A6AC3500E7EB9F /* Bundle+FOXAdditions.swift in Sources */,
 				5B9F0641239D0C20002E90A6 /* BinaryFloatingPoint+FOXAdditions.swift in Sources */,
