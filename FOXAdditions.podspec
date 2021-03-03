@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FOXAdditions'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'Handy Swift Extensions.'
   s.description      = <<-DESC
 FOXAdditions - Some handy Swift extensions

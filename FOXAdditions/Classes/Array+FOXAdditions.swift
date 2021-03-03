@@ -94,7 +94,7 @@ extension Array where Element: Equatable {
 	- Parameter object: The object to remove
 	**/
 	mutating func fox_removeFirst(object: Element) {
-		guard let index = index(of: object) else {return}
+		guard let index = firstIndex(of: object) else {return}
 		remove(at: index)
 	}
 	

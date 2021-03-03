@@ -1,4 +1,6 @@
 
+### 1.1.2 | Update to use newish cocoapods options incremental_installation and generate_multiple_pod_projects
+
 ### 1.1.1 | Removes a bunch of unneeded code and pods
 
 ### 1.1.0 | Adds Codable+FOXAdditions with methods for converting to and from a dictionary
