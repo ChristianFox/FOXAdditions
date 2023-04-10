@@ -1,9 +1,6 @@
-# FOXAdditions
+# DEPRECATED - This library is no longer maintained or used by the author
 
-[![CI Status](https://img.shields.io/travis/ChristianFox/FOXAdditions.svg?style=flat)](https://travis-ci.org/ChristianFox/FOXAdditions)
-[![Version](https://img.shields.io/cocoapods/v/FOXAdditions.svg?style=flat)](https://cocoapods.org/pods/FOXAdditions)
-[![License](https://img.shields.io/cocoapods/l/FOXAdditions.svg?style=flat)](https://cocoapods.org/pods/FOXAdditions)
-[![Platform](https://img.shields.io/cocoapods/p/FOXAdditions.svg?style=flat)](https://cocoapods.org/pods/FOXAdditions)
+# FOXAdditions
 
 ## Example
 
@@ -23,7 +20,3 @@ pod 'FOXAdditions'
 ## Author
 
 ChristianFox, christianfox890@icloud.com
-
-## License
-
-FOXAdditions is available under the MIT license. See the LICENSE file for more info.
