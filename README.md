@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 # DEPRECATED - This library is no longer maintained or used by the author
 
 # FOXAdditions
